@@ -26,7 +26,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://comcom.dc.uba.ar" # the base hostname & protocol for your site, e.g. http://example.com
 
-source: "site"
 logo: "static/img/logo.svg"
 logo-horizontal: "static/img/logo-horizontal.svg"
 
@@ -35,14 +34,22 @@ github_username:  comcomUBA
 
 header_pages:
   - codep.md
-  - talleres/index.md
+  - talleres.md
 
 lang: es
 
+collections:
+  talleres:
+    output: true
+
 # Build settings
 theme: minima
+paginate: 3
+
 plugins:
   - jekyll-feed
+  - jekyll-watch
+  - jekyll-paginate
   
 
 # Exclude from processing.

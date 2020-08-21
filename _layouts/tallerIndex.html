@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  {% assign customStyle = "tallerIndex.css" %}
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <main class="page-content">
+        <div class="wrapper">
+        <div class="index-nuevos-talleres">
+          <h2>¡Nuevos talleres!</h2>
+          <p>Queremos incorporar <strong>nuevos talleres</strong> a la ComCom. Tenemos algunas
+          ideas, pero necesitamos gente que nos dé una mano para organizarlos
+          y llevarlos a cabo.</p> <p>Si te gustaría sumarte, completá
+          <a href="https://goo.gl/forms/bqeaCQBnDDkhOvLL2">este formulario</a>.</p>
+        </div>
+        <div class="centered">
+        <ul class="index-talleres">
+        {% for taller in site.talleres %}
+        {% if taller.tags contains 'index' %}
+        <a href="{{ taller.url | prepend: site.baseurl }}">
+          <li class="index-taller-item">
+          
+            <img class="taller-logo" src="/static/img/{{taller.tallerid}}/small-logo.min.svg" height="96"></img>
+            <div class="taller-nombre">{{ taller.title }}</div>
+            <div class="taller-fecha">{{ taller.edicion }}</div>
+        </li> 
+      </a>
+      {% endif %}
+        {% endfor %}
+        </ul>
+      </div>
+      </div>
+</main>
+    {% include footer.html %}
+
+  </body>
+
+</html>

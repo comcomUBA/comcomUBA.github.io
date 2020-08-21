@@ -1,4 +1,0 @@
----
-layout: tallerIndex
-title: Talleres
----

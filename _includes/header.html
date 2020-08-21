@@ -1,0 +1,10 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    {%- if page.tallerid -%}
+        {% include headerTaller.html%}
+    {% else %}
+        {% include headerDefault.html%}
+    {%- endif -%}
+  </div>
+</header>
