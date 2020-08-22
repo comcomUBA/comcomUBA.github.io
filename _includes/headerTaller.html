@@ -1,0 +1,23 @@
+<a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+    <img src="/static/img/logo.min.svg" height="50px" />
+  </a>
+<a class="taller-title" rel="author" href="{{ "/talleres/" | relative_url | append: page.tallerid }}/index">
+<img src="/static/img/{{page.tallerid}}/full-logo.min.svg" height="50px" />
+</a>
+
+<nav class="site-nav taller-nav">
+    <div class="trigger">
+      {% assign pages = site.talleres | sort: 'weight' %}
+      {% for parteTaller in pages %}
+        {% if parteTaller.layout == "taller" and parteTaller.tallerid == page.tallerid %}
+        <a class="page-link" href="{{ parteTaller.url | prepend: site.baseurl }}">{{ parteTaller  .title }}</a>
+        {% endif %}
+      {% endfor %}
+      {% if site.show_preinscripcion %}
+        <a class="page-link" href="{{ site.preinscripcion_url }}">Inscripción</a>
+      {% endif %}
+      {% if site.show_feedback %}
+        <a class="page-link" href="{{ site.feedback_url }}">¡Danos tu opinión!</a>
+      {% endif %}
+    </div>
+  </nav>

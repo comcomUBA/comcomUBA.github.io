@@ -1,0 +1,40 @@
+:root {
+    --numColumns: 2
+}
+
+.index-talleres {
+    display: grid;
+    grid-template-columns: repeat(var(--numColumns), 200px);
+    grid-gap: 1em;
+    list-style: none;
+}
+
+.index-taller-item{
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1em;
+    border: solid 2px var(--border-color);
+    box-shadow: 2px 4px 5px var(--shadow-color);
+}
+
+.index-taller-item:hover{
+    box-shadow: 8px 9px 12px var(--shadow-color);
+}
+
+.index-nuevos-talleres {
+    text-align: center;
+    font-size: .95em;
+    background-color: #e68585;
+    border-radius: 8px;
+    border: 2px solid rgba(150, 100, 100, .8);
+    box-shadow: 20px 18px 20px 0px var(--shadow-color);
+    margin: 0 auto 3.5em;
+    position: relative;
+    padding: 1em 1em;
+}
+
+.centered {
+    width: max-content;
+    margin: auto;
+}

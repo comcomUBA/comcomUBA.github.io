@@ -1,0 +1,25 @@
+---
+layout: taller
+---
+
+{{ content }}
+
+{% capture tag %}edicion-{{ page.name }}{% endcapture %}
+
+{% for post in site.tags[tag] %}
+  <article class="post post-listed" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h2 class="post-title-link">
+        <a itemprop="name headline" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date |  date: "%d.%m.%y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
+    </header>
+
+
+    <div class="post-content" itemprop="articleBody">
+      {{ post.content }}
+    </div>
+
+  </article>
+
+{% endfor %}

@@ -9,8 +9,10 @@
       <div class="footer-col footer-col-2">
         <ul class="contact-list">
             {%- if site.email -%}
+            
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
+            <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
         </ul>
       </div>
 
@@ -26,4 +28,13 @@
   </div>
 
 </footer>
+
+<script src="{{ "/thirdparty/lightbox2/js/lightbox-plus-jquery.min.js" | prepend: site.baseurl }}"></script>
+<script>
+  lightbox.option({
+    'albumLabel': "Imagen %1 de %2",
+    'fadeDuration': 300,
+    'resizeDuration': 300
+  })
+</script>
 

@@ -1,0 +1,11 @@
+<div class="centered">
+<ul class="gallery">
+{% for foto in page.fotos %}
+<a href="{{ site.baseurl }}{{ page.fotospath}}/{{ foto }}" data-lightbox="1" title="{{ image.text }}">
+    <li>
+    <img src="{{ site.baseurl }}{{ page.fotospath}}/{{ foto }}" title="{{ image.text }}">
+</li>
+</a>
+{% endfor %}
+</ul>
+</div>
