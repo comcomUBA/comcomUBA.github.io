@@ -17,6 +17,22 @@ Además, son reuniones abiertas a toda la comunidad.
 Si te interesa conocer, podes preguntarle a les CoDeppers cuándo es la próxima.
 Siempre se escuchan todas las voces, y *en general* la mayoría de cosas se aprueban por consenso.
 
+### ¿Quién me representa en CoDep?
+
+Si sos estudiante, les representantes estudiantiles actualmente son:
+
+- Mariana Milicich
+- Belén Ticona
+- Tobias Carreira Munich
+- Gianfranco Zamboni
+
+Si querés hacernos alguna consulta, podes hablarnos por el @dcubabot en Telegram mediante el comando
+/checodepers
+
+```
+/checodepers Tengo una duda/pregunta/mensaje sobre X
+```
+
 ### ¿Cómo me entero lo que pasa en el CoDep?
 
 En general, les CoDeppers intentan comunicar lo que sucede al resto de la comunidad.
