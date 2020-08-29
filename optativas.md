@@ -13,7 +13,7 @@ Las formas más comunes de conseguir puntos son:
 
 Uno puede hacer cuantas optativas quiera.
 Al momento de tramitar el título de licenciado,
-se debe de entre las optativas hechas un subconjunto que alcance los 12 puntos
+se debe elegir de entre las optativas hechas un subconjunto que alcance los 12 puntos
 con a lo sumo 6 puntos de otras carreras
 (por ejemplo, podes agarrar las optativas en las que tuviste mejor nota).
 
