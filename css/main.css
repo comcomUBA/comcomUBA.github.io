@@ -85,12 +85,12 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 /** Wrapper */
 .wrapper { 
-  max-width: -webkit-calc(1000px - (30px * 2)); 
+  max-width: calc(1000px - (30px * 2)); 
   margin-right: auto; 
   margin-left: auto; 
   padding-right: 20px; 
   padding-left: 20px; }
-@media screen and (max-width: 1000px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
+@media screen and (max-width: 1000px) { .wrapper { max-width: calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
 
 /** Clearfix */
 .wrapper:after, .footer-col-wrapper:after { content: ""; display: table; clear: both; }
@@ -279,14 +279,19 @@ footer {
 }
 
 .gallery {
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(3, 200px);
-  grid-gap: 1em;
+  display: flex;
   list-style: none;
-  transition: box-shadow 0.15s;
-  width: 80%;
-  margin-left: auto;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 0px;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.gallery > * {
+    flex-basis: 300px;
+    flex-grow: 10000;
+    margin: 10px;
 }
 
 .gallery a:hover {
