@@ -28,3 +28,14 @@ bundle exec jekyll serve
 Te levanta un servidor local,
 al cual podes acceder desde el navegador que más te guste
 en `http://localhost:4000`.
+
+## Problemas comunes
+
+### Error largo con referencias a ruby 3
+
+Puede pasar que tengas instalado globalmente Ruby 3 y esté usando ese en vez del de rbenv.
+Fijate de agregar rbenv al PATH (editando ~/.bashrc, ~/.zshrc o el archivo que corresponda para tu sistema y consola):
+
+```
+export PATH="$HOME/.rbenv/bin:$PATH"
+```
