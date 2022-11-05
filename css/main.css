@@ -105,7 +105,8 @@ pre, code { font-size: 15px; border: 1px solid var(--background-color2); border-
 
 code { 
   padding: 1px 5px; 
-  background-color: var(--background-color2)}
+  background-color: var(--background-color2)
+}
 
 pre { padding: 8px 12px; overflow-x: auto; }
 pre > code { border: 0; padding-right: 0; padding-left: 0; }
