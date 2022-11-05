@@ -1,7 +1,37 @@
 :root{
-  --shadow-color: hsl(184 25% 6% / 1);
-  --border-color: hsl(184 25% 75% / 1)
+  
+  --shadow-color: var(--background-color2);
+  --border-color: var(--background-color2);
 }
+
+
+
+/* Colores en variables + dark mode */
+html { 
+	  --light-text-color: rgb(72, 72, 74);
+  	--link-color: rgb(0, 112, 201);
+  	--background-color: rgb(255, 255, 255);
+  	--main-text-color: rgb(51, 51, 51);
+    --background-color2: rgb(255, 255, 255);
+    --background-color3 : #fff;
+    --logo: #231f20;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+	html {
+		--light-text-color: rgb(199, 199, 204);
+  		--link-color: rgb( 100, 210, 255);
+  		--background-color: rgb(28, 28, 30);
+      --background-color2: rgb(15, 15, 20);
+  		--main-text-color: rgb(229, 229, 234);
+      --background-color3: #b4b4b4;
+      --logo: #b4b4b4;
+      
+	}
+}
+
 
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { 
@@ -11,8 +41,8 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 
 /** Basic styling */
 body { 
-  background-color: #fdfdfd;
-  color: #111; 
+  background-color: var(--background-color);
+  color: var(--main-text-color); 
   display: flex;
   flex-direction: column; 
   font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
@@ -27,9 +57,6 @@ body {
   -webkit-font-feature-settings: "kern" 1;
   -webkit-text-size-adjust: 100%; 
 }
-  
-  
-      
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { 
@@ -61,24 +88,26 @@ li > ul, li > ol { margin-bottom: 0; }
 h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 
 /** Links */
-a { color: #2a7ae2; text-decoration: none; }
-a:visited { color: #1756a9; }
+a { color: var(--link-color); text-decoration: none; }
+a:visited { color:var(--link-color); }
 a:hover { color: #111; text-decoration: underline; }
 .social-media-list a:hover { text-decoration: none; }
 .social-media-list a:hover .username { text-decoration: underline; }
 
 /** Blockquotes */
 blockquote { 
-  color: #828282; 
-  border-left: 4px solid #e8e8e8; 
+  color: var(--background-color2); 
+  border-left: 4px solid var(--background-color); 
   padding-left: 15px; 
   font-size: 18px; letter-spacing: -1px; font-style: italic; }
 blockquote > :last-child { margin-bottom: 0; }
 
 /** Code formatting */
-pre, code { font-size: 15px; border: 1px solid #e8e8e8; border-radius: 3px; background-color: #eef; }
+pre, code { font-size: 15px; border: 1px solid var(--background-color2); border-radius: 3px; background-color: var(--background-color2) }
 
-code { padding: 1px 5px; }
+code { 
+  padding: 1px 5px; 
+  background-color: var(--background-color2)}
 
 pre { padding: 8px 12px; overflow-x: auto; }
 pre > code { border: 0; padding-right: 0; padding-left: 0; }
@@ -101,24 +130,25 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .social-media-list li + li { padding-top: 5px; }
 
 /** Tables */
-table { margin-bottom: 30px; width: 100%; text-align: left; color: #3f3f3f; border-collapse: collapse; border: 1px solid #e8e8e8; }
-table tr:nth-child(even) { background-color: #f7f7f7; }
+table { margin-bottom: 30px; width: 100%; text-align: left; color: #3f3f3f; border-collapse: collapse; border: 1px solid var(--light-text-color); }
+table tr:nth-child(even) { background-color: var(--light-text-color); }
 table th, table td { padding: 10px 15px; }
-table th { background-color: #f0f0f0; border: 1px solid #dedede; border-bottom-color: #c9c9c9; }
-table td { border: 1px solid #e8e8e8; }
+table th { background-color: var(--background-color);; border: 1px solid var(--light-text-color); border-bottom-color: #c9c9c9; }
+table td { border: 1px solid var(--light-text-color); }
 
 /** Site header */
 .site-header { 
-    background-color: #fdfdfd;
+    background-color: var(--background-color);
     padding: 10px;
+    /* box-shadow: 0px -2px 10px 0px var(--shadow-color); rompe las cosas en darkmode, si no rompe nada en lightmode lo dejo comentado*/  
     border-top: 5px solid hsl(184 75% 15% / 1); 
     border-bottom: 1px solid var(--border-color); 
-    box-shadow: 0px -2px 10px 0px var(--shadow-color);
     min-height: 55.95px; 
     position: fixed;
     top: 0px;
     width: 100%;
 }
+
 
 .site-title { font-size: 26px; font-weight: 300; line-height: 54px; letter-spacing: -1px; margin-bottom: 0; float: left; }
 .site-title, .site-title:visited { color: #424242; }
@@ -126,7 +156,7 @@ table td { border: 1px solid #e8e8e8; }
 .site-nav { float: right; line-height: 54px; }
 .site-nav .nav-trigger { display: none; }
 .site-nav .menu-icon { display: none; }
-.site-nav .page-link { color: #111; line-height: 1.5; }
+.site-nav .page-link { color: var(--main-text-color); line-height: 1.5; }
 .site-nav .page-link:not(:last-child) { margin-right: 20px; }
 @media screen and (max-width: 600px) { .site-nav { position: absolute; top: 9px; right: 15px; background-color: #fdfdfd; 
   border: 1px solid var(--border-color); border-radius: 5px; text-align: right; }
@@ -193,7 +223,7 @@ table td { border: 1px solid #e8e8e8; }
 @media screen and (max-width: 800px) { .post-content h4 { font-size: 18px; } }
 
 /** Syntax highlighting styles */
-.highlight { background: #fff; }
+.highlight { color: #fff; }
 .highlighter-rouge .highlight { background: #eef; }
 .highlight .c { color: #998; font-style: italic; }
 .highlight .err { color: #a61717; background-color: #e3d2d2; }
@@ -297,3 +327,4 @@ footer {
 .gallery a:hover {
   box-shadow: 2px 2px 2px 0 var(--shadow-color);
 }
+

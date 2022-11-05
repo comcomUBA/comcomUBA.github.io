@@ -10,7 +10,7 @@
 }
 
 .index-taller-item{
-    background-color: #e4e4e4;
+    background-color: var(--background-color);
     border-radius: 5px;
     text-align: center;
     padding: 1em;
