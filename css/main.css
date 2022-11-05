@@ -8,10 +8,10 @@
 
 /* Colores en variables + dark mode */
 html { 
-	  --light-text-color: rgb(72, 72, 74);
-  	--link-color: rgb(0, 112, 201);
-  	--background-color: rgb(255, 255, 255);
-  	--main-text-color: rgb(51, 51, 51);
+    --light-text-color: rgb(72, 72, 74);
+    --link-color: rgb(0, 112, 201);
+    --background-color: rgb(255, 255, 255);
+    --main-text-color: rgb(51, 51, 51);
     --background-color2: rgb(255, 255, 255);
     --background-color3 : #fff;
     --logo: #231f20;
