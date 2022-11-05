@@ -139,7 +139,6 @@ table td { border: 1px solid var(--light-text-color); }
 .site-header { 
     background-color: var(--background-color);
     padding: 10px;
-    /* box-shadow: 0px -2px 10px 0px var(--shadow-color); rompe las cosas en darkmode, si no rompe nada en lightmode lo dejo comentado*/  
     border-top: 5px solid hsl(184 75% 15% / 1); 
     border-bottom: 1px solid var(--border-color); 
     min-height: 55.95px; 
