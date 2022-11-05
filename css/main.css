@@ -147,7 +147,6 @@ table td { border: 1px solid var(--light-text-color); }
     width: 100%;
 }
 
-
 .site-title { font-size: 26px; font-weight: 300; line-height: 54px; letter-spacing: -1px; margin-bottom: 0; float: left; }
 .site-title, .site-title:visited { color: #424242; }
 
