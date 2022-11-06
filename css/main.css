@@ -1,34 +1,35 @@
 :root{
-  
   --shadow-color: var(--background-color2);
   --border-color: var(--background-color2);
 }
 
-
-
 /* Colores en variables + dark mode */
 html { 
-    --light-text-color: rgb(72, 72, 74);
-    --link-color: rgb(0, 112, 201);
-    --background-color: rgb(255, 255, 255);
-    --main-text-color: rgb(51, 51, 51);
-    --background-color2: rgb(255, 255, 255);
-    --background-color3 : #fff;
-    --logo: #231f20;
+  --light-text-color: rgb(72, 72, 74);
+  --link-color: rgb(0, 112, 201);
+  --background-color: rgb(255, 255, 255);
+  --main-text-color: rgb(51, 51, 51);
+  --background-color2: rgb(255, 255, 255);
+  --background-color3 : #fff;
+  --logo: #231f20;
+  --site-logo-url: url("/static/img/comcom/logo-horizontal.min.svg");
+  --taller-logo-url: url("/static/img/comcom/logo.min.svg");
 }
 
 
 
 @media (prefers-color-scheme: dark) {
-	html {
-      --light-text-color: rgb(199, 199, 204);
-      --link-color: rgb(100, 210, 255);
-      --background-color: rgb(28, 28, 30);
-      --background-color2: rgb(15, 15, 20);
-      --main-text-color: rgb(229, 229, 234);
-      --background-color3: #b4b4b4;
-      --logo: #b4b4b4;
-	}
+  html {
+    --light-text-color: rgb(199, 199, 204);
+    --link-color: rgb(100, 210, 255);
+    --background-color: rgb(28, 28, 30);
+    --background-color2: rgb(15, 15, 20);
+    --main-text-color: rgb(229, 229, 234);
+    --background-color3: #b4b4b4;
+    --logo: #b4b4b4;
+    --site-logo-url: url("/static/img/mocmoc/logo-horizontal.min.svg");
+    --taller-logo-url: url("/static/img/mocmoc/logo.min.svg");
+  }
 }
 
 /** Reset some basic elements */
@@ -323,4 +324,24 @@ footer {
 
 .gallery a:hover {
   box-shadow: 2px 2px 2px 0 var(--shadow-color);
+}
+
+.site-header-logo {
+  background-image: var(--site-logo-url);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: inline-block;
+  width: 270px;
+  height: 50px;
+}
+
+.taller-header-logo {
+  background-image: var(--taller-logo-url);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: inline-block;
+  width: 70px;
+  height: 50px;
 }
