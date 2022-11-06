@@ -30,6 +30,11 @@ html {
     --site-logo-url: url("/static/img/mocmoc/logo-horizontal.min.svg");
     --taller-logo-url: url("/static/img/mocmoc/logo.min.svg");
   }
+
+  img {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
 }
 
 /** Reset some basic elements */
@@ -68,9 +73,9 @@ main {
 }
 
 /** Images */
-img { 
-  max-width: 100%; 
-  vertical-align: middle; 
+img {
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 /** Figures */
