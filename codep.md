@@ -21,10 +21,8 @@ Siempre se escuchan todas las voces, y *en general* la mayoría de cosas se apru
 
 Si sos estudiante, les representantes estudiantiles actualmente son:
 
-- Mariana Milicich
-- Belén Ticona
-- Tobias Carreira Munich
-- Gianfranco Zamboni
+- Sofía Gurruchaga
+- Sebastián Felgueras
 
 Si querés hacernos alguna consulta, podes hablarnos por el @dcubabot en Telegram mediante el comando
 /checodepers
