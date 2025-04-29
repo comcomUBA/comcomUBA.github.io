@@ -6,10 +6,14 @@ tallerid: git
 weight: 3
 ---
 
+## Clases grabadas
+La idea del taller presencial es tener un espacio físico para que puedan venir y hacer preguntas y nos parece el mejor formato para dar el taller y que puedan interactuar entre ustedes.
+De cualquier manera, en 2024 grabamos las clases para quienes no pudieron asistir presencialmente, les dejamos el link para que las puedan ver si no pueden asistir. [Link a la playlist](https://www.youtube.com/watch?v=QnMnBHILYs8&list=PLTOs3NjfmiSQnbqq2QgRQVaZug_EkEhf3&pp=gAQB).
+
 ## Diapositivas del curso
 
-* [**Clase 1**]({{ site.baseurl }}/static/descargas/git/clase1.pdf){:target="_blank"}. Introducción, comandos básicos (`clone`, `add`, `commit`, `status`, `init`), repositorios remotos (`remote`, `pull`, `push`), resolución de conflictos.
-* [**Clase 2**]({{ site.baseurl }}/static/descargas/git/clase2.pdf){:target="_blank"}. Eliminar y mover archivos (`rm`, `mv`), revisar cambios anteriores (`diff`, `log`), ramificaciones (_branches_: `branch`, `checkout`), otros comandos (`commit --amend`, `revert`, `stash`), extras.
+Tenemos las diapositivas y foros para consultas en nuestro [campus](https://campus.exactas.uba.ar/course/view.php?id=416).
+
 
 ## Links de interés
 

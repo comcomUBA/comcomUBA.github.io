@@ -1,11 +1,11 @@
 ---
-layout: page
-title:  Talleres de Git y LaTeX
-date:   2024-09-02 20:26:00 -0300
-permalink: /talleres
+layout: tallerIndex
+title: Talleres de Git y LaTex
+permalink: /talleres/
+tallerid: talleres
+weight: 0
+tags: index
 ---
-
-# ¡Preinscripción abierta a los talleres de la ComCom!
 
 ¿Querés aprender a usar herramientas clave para tu carrera? Desde la Comisión de Estudiantes de Computación (ComCom), seguimos organizando talleres pensados para estudiantes dictados por estudiantes, con el apoyo del Departamento de Computación.
 

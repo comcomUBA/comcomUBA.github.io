@@ -1,8 +1,7 @@
 ---
 layout: taller
-title: ¿Que es Git?
-permalink: /talleres/git/index
-edicion: "2019-1c"
+title: Taller de Git
+permalink: /talleres/git/
 tallerid: git
 weight: 0
 tags: index
