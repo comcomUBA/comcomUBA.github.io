@@ -17,11 +17,9 @@ Si asentiste a alguna de estas situaciones, la ComCom te presenta una solución:
 
 ## ¿Qué es LaTeX?
 
-LaTeX (se pronuncia "Latej" o "Leitek", según a quién le preguntes) es un sistema de preparación de documentos pensado para que te concentres en **el contenido**, mientras él se encarga del **formato**. Ideal para escribir artículos científicos, tesis, libros, o cualquier texto donde quieras que todo se vea impecable.
+LaTeX es un sistema de preparación de documentos pensado para que te concentres en **el contenido**, mientras él se encarga del **formato**. Ideal para escribir artículos científicos, tesis, libros, o cualquier texto donde quieras que todo se vea impecable.
 
 En vez de andar arrastrando imágenes o corrigiendo numeraciones a mano, en LaTeX escribís instrucciones. El sistema interpreta esas instrucciones y genera automáticamente documentos de calidad profesional.
-
-> "LaTeX no hace que escribas mejor, pero logra que tus errores se vean más prolijos."
 
 ## Un poco de historia
 
