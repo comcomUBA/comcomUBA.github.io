@@ -22,7 +22,8 @@ bundle install
 Para correr la página en tu compu, hacé
 
 ```
-bundle exec jekyll serve
+bundler exec jekyll build && bash -c 'cd _site && python -m http.server 3000'
+
 ```
 
 Te levanta un servidor local,
