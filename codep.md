@@ -21,15 +21,18 @@ Siempre se escuchan todas las voces, y *en general* la mayoría de cosas se apru
 
 Si sos estudiante, les representantes estudiantiles actualmente son:
 
-- Sofía Gurruchaga
-- Sebastián Felgueras
+- Zoe Marino
+- Luca Chicconi
+- Laura Bailleres
+- Pablo Segre Maturano
+- Francisco Sandalinas
 
 Si querés hacernos alguna consulta, podes hablarnos por el @dcubabot en Telegram mediante el comando
-/checodepers
+/checodepers:
 
-```
-/checodepers Tengo una duda/pregunta/mensaje sobre X
-```
+
+***/checodepers Tengo una duda/pregunta/mensaje sobre X***
+
 
 ### ¿Cómo me entero lo que pasa en el CoDep?
 
@@ -42,15 +45,15 @@ Además, se pueden ver los resúmenes oficiales en la [web del DC](https://www.d
 
 #### Formalmente:
 
-    * Ir a las reuniones de Codep. Usualmente cada dos semanas, los Miércoles a las 15hs.
-    * Representar a les estudiantes frente al departamento.
-    * Informar al resto de estudiantes sobre lo que sucede en el CoDep.
+* Ir a las reuniones de Codep. Usualmente una vez por mes.
+* Representar a les estudiantes frente al departamento.
+* Informar al resto de estudiantes sobre lo que sucede en el CoDep.
 
 #### Informalmente:
 
-    * Convocar a las reuniones de la ComCom.
-    * Administrar el grupo de Facebook y Telegram.
-    * Representar a les estudiantes en otros ámbitos.
+* Convocar a las reuniones de la ComCom.
+* Administrar el grupo de Facebook y Telegram.
+* Representar a les estudiantes en otros ámbitos.
 
 Les CoDepers suelen trabajar en equipo para resolver los problemas y presentar propuestas ante el departamento. Las cuestiones que se tratan **generalmente** son cotidianas, más vinculadas al funcionamiento doméstico del departamento que a la política en ámbitos más amplios (agrupaciones nacionales, etc).
 
