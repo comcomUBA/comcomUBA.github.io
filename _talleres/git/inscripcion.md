@@ -17,4 +17,4 @@ El taller consta de 3 clases con los siguientes temas:
 
 Recomendado para estudiantes de _Introducción a la Programación/Algoritmos 1._
 
-👉 [Inscipción al taller de Git](https://forms.gle/gdLJyd6vtmRRUM7D6)  
+👉 [Inscipción al taller de Git](https://forms.gle/FzTVrFzW1HhRYgDJ9)  

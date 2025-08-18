@@ -17,4 +17,4 @@ El taller consta de 1 clase con los siguientes temas:
 
 Este taller está armado para alumnos de _Algoritmos y Estructuras de Datos/Algo 2_, por lo que asumiremos ciertos conocimientos. Te recomendamos esperar a cursarla para asistir al taller.
 
-👉 [Inscripción al taller de LaTeX](https://forms.gle/2fQcVh9kqn77NnTb6)  
+👉 [Inscripción al taller de LaTeX](https://forms.gle/9Ehc3PjFiy86mdcP9)  
