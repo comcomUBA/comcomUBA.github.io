@@ -28,3 +28,5 @@ Gracias al software de control de versiones, podés mantener tus archivos **orga
 
 
 Git nació en **2005**, después de que se venga abajo la relación entre la comunidad que desarrollaba el núcleo de Linux y la compañía responsable de BitKeeper, el sistema de control de versiones que venían usando hasta entonces. A estos muchachos (y en particular a Linus Torvalds, el creador de Linux) se les ocurrió que la mejor forma de reemplazarla era desarrollando una herramienta propia. Desde entonces Git ha logrado evolucionar manteniendo su **diseño sencillo** y su tremenda **eficiencia**, incluso para manejar proyectos muy grandes.
+
+# Inscribite [acá]({{ site.baseurl }}/talleres/git/inscripcion/).

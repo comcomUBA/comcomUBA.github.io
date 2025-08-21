@@ -36,3 +36,5 @@ Unos años más tarde, en los '80, **Leslie Lamport** tomó TeX y le puso encima
 
 Y como frutilla del postre: cuando tus compañeros sigan luchando con Word porque se desacomodó todo en la página 52, vos ya vas a estar tranquilo mandando el PDF final.
 
+# Inscribite [acá]({{ site.baseurl }}/talleres/latex/inscripcion/).
+
