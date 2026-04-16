@@ -42,7 +42,7 @@ Desde los titánicos píxeles de Pong hasta las partículas de humedad del Death
 
 ¿Alguna vez te preguntaste cómo hacen dos programas que no se conocen para comunicarse entre sí, o cómo hace tu app del clima para saber la temperatura? ¡Detrás de todo eso hay una API! En el taller vamos a ver de qué se tratan, qué tipos existen, cómo diseñarlas e implementarlas.
 
-**Requerimientos:** Recomendamos tener Algoritmos y Estructuras de Datos (Algo 2), pero si tienen IP pueden venir!
+**Requerimientos:** Recomendamos tener Algoritmos y Estructuras de Datos (Algo 2).
 
 ## WebDev — viernes 8/5, 18:30 hs · Labo 1112
 
