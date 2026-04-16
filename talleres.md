@@ -1,10 +1,8 @@
 ---
-layout: tallerIndex
-title: Talleres de Git y LaTex
+layout: redirect
+title: Talleres
 permalink: /talleres/
-tallerid: talleres
-weight: 0
-tags: index
+redirect_to: /talleres/paro/
 ---
 
 ¿Querés aprender a usar herramientas clave para tu carrera? Desde la Comisión de Estudiantes de Computación (ComCom), seguimos organizando talleres pensados para estudiantes dictados por estudiantes, con el apoyo del Departamento de Computación.

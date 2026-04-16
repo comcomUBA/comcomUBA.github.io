@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <main class="page-content">
+      <div class="wrapper">
+        <div class="edicion-especial">
+          <h1 class="paro-titulo">{{ page.title }}</h1>
+          <div class="paro-talleres">
+            {{ content }}
+          </div>
+          {% if page.flyer %}
+          <div class="paro-flyer">
+            <img src="{{ page.flyer }}" alt="Flyer talleres edición especial">
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

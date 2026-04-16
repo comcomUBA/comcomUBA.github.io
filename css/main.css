@@ -350,3 +350,60 @@ footer {
   width: 70px;
   height: 50px;
 }
+
+/* Edición especial talleres */
+.edicion-especial {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.paro-flyer {
+  text-align: center;
+  margin: 10px 0 24px;
+}
+
+.paro-flyer img {
+  max-width: 560px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.paro-inscripcion {
+  text-align: center;
+  margin: 0 0 40px;
+}
+
+.btn-inscripcion {
+  display: inline-block;
+  background-color: hsl(184, 75%, 18%);
+  color: #fff !important;
+  padding: 14px 36px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-inscripcion:hover {
+  background-color: hsl(184, 75%, 12%);
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.paro-talleres h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 36px;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid hsl(184, 75%, 18%);
+}
+
+.paro-talleres p {
+  margin-bottom: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  .paro-flyer img { max-width: 100%; }
+  .btn-inscripcion { font-size: 16px; padding: 12px 24px; }
+}
