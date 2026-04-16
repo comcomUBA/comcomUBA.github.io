@@ -48,6 +48,6 @@ Desde los titánicos píxeles de Pong hasta las partículas de humedad del Death
 
 ¿Querés armarte un sitio web? ¿Un CV con mucha onda? ¿Un blog? ¿Lo que sea que se te ocurra? En el taller de desarrollo web vamos a tener una introducción bien potente al tema. Es un taller super introductorio dirigido a gente que no sepa absolutamente nada. Nos vamos a concentrar exclusivamente en HTML y CSS, los dos lenguajes necesarios para poder construir un sitio que se vea espectacular y tener las bases necesarias para que después puedan profundizar en el gigantesco campo del desarrollo web.
 
-**Requerimientos:** Nada _(preferible tener algo de experiencia navegando/modificando archivos desde la terminal)_
+**Requerimientos:** Nada _(Preferible tener algo de experiencia navegando/modificando archivos de texto. Ideal saber usar vscode)_
 
 ---
