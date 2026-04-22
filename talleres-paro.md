@@ -13,6 +13,8 @@ Los talleres tienen un cupo de 50 personas cada uno (capacidad máxima del aula)
 
 <div class="paro-inscripcion"><a class="btn-inscripcion" href="https://forms.gle/Smawe8QuBQm9mi9U8" target="_blank" rel="noopener">Inscribirse</a></div>
 
+<div class="paro-inscripcion"><a class="btn-inscripcion" href="{{ site.baseurl }}/static/descargas/intro_talleres.pdf" download>Diapositivas de introducción</a></div>
+
 ## Docker — martes 21/4, 17 a 19 hs · Labo 1105
 
 ¿Te cansaste de que tu código funcione en tu máquina y falle en todas las demás? ¿Querés dejar de perder tiempo configurando entornos para cada TP o proyecto? Venite a aprender a crear entornos portables que se comporten igual en cualquier computadora, sin importar el sistema operativo o la configuración.
