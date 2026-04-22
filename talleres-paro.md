@@ -19,6 +19,8 @@ Los talleres tienen un cupo de 50 personas cada uno (capacidad máxima del aula)
 
 **Requerimientos:** Saber usar una terminal (básico)
 
+[Materiales del taller](/talleres/docker/)
+
 ## Git — jueves 23/4, 17 a 19 hs · Labo 1104
 
 Saber Git es clave para cualquiera que quiera programar, es una herramienta esencial para el desarrollo de software y la vas a terminar usando en todas tus materias. Este taller te va a ayudar a entender cómo organizar y manejar tus proyectos académicos, proyectos personales y mejorará tus habilidades para trabajar en equipo.
