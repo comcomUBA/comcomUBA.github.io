@@ -22,10 +22,11 @@ Siempre se escuchan todas las voces, y *en general* la mayoría de cosas se apru
 Si sos estudiante, les representantes estudiantiles actualmente son:
 
 - Zoe Marino
+- Kamala Jimeno Leiton
+- Juana Choclin
+- Ulises Lopez Pacholczak
 - Luca Chicconi
-- Laura Bailleres
-- Pablo Segre Maturano
-- Francisco Sandalinas
+- Francisco Demartino
 
 Si querés hacernos alguna consulta, podes hablarnos por el @dcubabot en Telegram mediante el comando
 /checodepers:
