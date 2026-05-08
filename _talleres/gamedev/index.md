@@ -63,7 +63,6 @@ Dejamos aca un listado de documentales, libros, entrevistas, peliculas o conteni
 ### Lecturas
 
 - [Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture - David Kushner](https://en.wikipedia.org/wiki/Masters_of_Doom)
-
 - [Game Engine Black Book: Wolfenstein - Fabien Sanglard](https://fabiensanglard.net/gebbwolf3d/)
 - [Game Engine Black Book: Doom - Fabien Sanglard](https://fabiensanglard.net/gebbdoom/)
 - [Console Wars - Blake J. Harris](https://en.wikipedia.org/wiki/Console_Wars_(book))
