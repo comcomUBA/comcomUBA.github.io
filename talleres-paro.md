@@ -42,6 +42,8 @@ Desde los titánicos píxeles de Pong hasta las partículas de humedad del Death
 
 **Requerimientos:** Recomendamos ya haber cursado Algoritmos y Estructuras de Datos II
 
+[Materiales del taller](/talleres/gamedev/)
+
 ## APIs — martes 5/5, 15 a 18 hs · Labo 1105
 
 ¿Alguna vez te preguntaste cómo hacen dos programas que no se conocen para comunicarse entre sí, o cómo hace tu app del clima para saber la temperatura? ¡Detrás de todo eso hay una API! En el taller vamos a ver de qué se tratan, qué tipos existen, cómo diseñarlas e implementarlas.
