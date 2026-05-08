@@ -20,14 +20,49 @@ Son juegos, después de todo.
 
 ## Materiales
 
+Estos son los archivos que probablemente se vean o mencionen a lo largo del taller:
+
 <div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 24px;">
   <a class="btn-inscripcion" href="{{ site.baseurl }}/static/descargas/gamedev/gamedev_diapos.pdf" download>
     Diapositivas
   </a>
-</div>
-
-<div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 24px;">
   <a class="btn-inscripcion" href="{{ site.baseurl }}/static/descargas/gamedev/demo.tar.gz" download>
     Demo
   </a>
 </div>
+
+## Contenido adicional
+
+Seguro que alguno de los talleristas (cuyo nombre empieza con _T_ y termina con _omi_) estuvo toda la explicación hablando de distintos eventos, empresas, personajes o videojuegos pintorescos.
+
+Dejamos aca un listado de documentales, libros, entrevistas, peliculas o contenidos varios que profundizan en lo que se mencionó a la hora de dar el taller.
+
+### Motores graficos
+
+- [Godot](https://godotengine.org/)
+- [Unity](https://unity.com/)
+- [Unreal](https://www.unrealengine.com/)
+- [Gamemaker](https://gamemaker.io/en)
+- [Pico8](https://www.lexaloffle.com/pico-8.php)
+
+### Series / Peliculas
+
+- [Halt and Catch Fire (2014-2017)](https://www.imdb.com/title/tt2543312/)
+- [Tetris (2023)](https://www.imdb.com/title/tt12758060/)
+
+### Documentales
+
+- [_Indie Game The Movie_ (2012)](https://www.imdb.com/title/tt1942884/)
+- [_High Score_ (2020)](https://www.imdb.com/title/tt12759400/)
+- [La Evolución del Shooter](https://www.youtube.com/playlist?list=PLfbxvdoWEDa3Z2bGeoHJJVtAQOD47uH8P)
+- [noclip](https://www.youtube.com/@NoclipDocs)
+- [ThatGuyGlen](https://www.youtube.com/@ThatGuyGlen)
+
+### Lecturas
+
+- [Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture - David Kushner](https://en.wikipedia.org/wiki/Masters_of_Doom)
+
+- [Game Engine Black Book: Wolfenstein - Fabien Sanglard](https://fabiensanglard.net/gebbwolf3d/)
+- [Game Engine Black Book: Doom - Fabien Sanglard](https://fabiensanglard.net/gebbdoom/)
+- [Console Wars - Blake J. Harris](https://en.wikipedia.org/wiki/Console_Wars_(book))
+
