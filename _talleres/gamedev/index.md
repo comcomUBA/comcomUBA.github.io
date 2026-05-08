@@ -22,7 +22,7 @@ Son juegos, después de todo.
 
 Estos son los archivos que probablemente se vean o mencionen a lo largo del taller:
 
-<div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 24px;">
+<div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 24px; justify-content: center;">
   <a class="btn-inscripcion" href="{{ site.baseurl }}/static/descargas/gamedev/gamedev_diapos.pdf" download>
     Diapositivas
   </a>
