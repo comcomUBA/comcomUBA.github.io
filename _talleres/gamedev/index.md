@@ -4,7 +4,7 @@ title: Taller de GameDev
 permalink: /talleres/gamedev/
 ---
 
-# Taller de Desarrollo de Videojuegos
+# *Taller de Desarrollo de Videojuegos*
 
 Acá estamos, en la Facultad de Ciencias Exactas y Naturales, educándonos para hacer ciencia... ¿y estos locos deciden dar un taller de videojuegos?
 
@@ -18,7 +18,7 @@ No hace falta experiencia previa (aunque sí se recomienda haber cursado Introdu
 
 Son juegos, después de todo.
 
-## Materiales
+## *Materiales*
 
 Estos son los archivos que probablemente se vean o mencionen a lo largo del taller:
 
@@ -33,13 +33,13 @@ Estos son los archivos que probablemente se vean o mencionen a lo largo del tall
 
 De encontrar algún error o improvisto con la descarga de los archivos, avisar a los talleristas.
 
-## Contenido adicional
+## *Contenido adicional*
 
 Seguro que alguno de los talleristas (cuyo nombre empieza con _T_ y termina con _omi_) estuvo toda la explicación hablando de distintos eventos, empresas, personajes o videojuegos pintorescos.
 
 Dejamos aca un listado de documentales, libros, entrevistas, peliculas o contenidos varios que profundizan en lo que se mencionó a la hora de dar el taller.
 
-### Motores graficos
+### *Motores graficos*
 
 - [Godot](https://godotengine.org/)
 - [Unity](https://unity.com/)
@@ -47,12 +47,12 @@ Dejamos aca un listado de documentales, libros, entrevistas, peliculas o conteni
 - [Gamemaker](https://gamemaker.io/en)
 - [Pico8](https://www.lexaloffle.com/pico-8.php)
 
-### Series / Peliculas
+### *Series / Peliculas*
 
 - [Halt and Catch Fire (2014-2017)](https://www.imdb.com/title/tt2543312/)
 - [Tetris (2023)](https://www.imdb.com/title/tt12758060/)
 
-### Documentales
+### *Documentales*
 
 - [_Indie Game The Movie_ (2012)](https://www.imdb.com/title/tt1942884/)
 - [_High Score_ (2020)](https://www.imdb.com/title/tt12759400/)
@@ -60,7 +60,7 @@ Dejamos aca un listado de documentales, libros, entrevistas, peliculas o conteni
 - [noclip](https://www.youtube.com/@NoclipDocs)
 - [ThatGuyGlen](https://www.youtube.com/@ThatGuyGlen)
 
-### Lecturas
+### *Lecturas*
 
 - [Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture - David Kushner](https://en.wikipedia.org/wiki/Masters_of_Doom)
 - [Game Engine Black Book: Wolfenstein - Fabien Sanglard](https://fabiensanglard.net/gebbwolf3d/)
