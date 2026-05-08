@@ -16,10 +16,18 @@ En particular, vamos a utilizar Godot, un motor gráfico bastante intuitivo (y c
 
 No hace falta experiencia previa (aunque sí se recomienda haber cursado Introducción a la Programación). El taller está pensado para estudiantes movidos por la curiosidad y, sobre todo, que se quieran divertir.
 
-Son juegos, después de todo.## Materiales
+Son juegos, después de todo.
+
+## Materiales
 
 <div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 24px;">
   <a class="btn-inscripcion" href="{{ site.baseurl }}/static/descargas/gamedev/gamedev_diapos.pdf" download>
     Diapositivas
+  </a>
+</div>
+
+<div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 24px;">
+  <a class="btn-inscripcion" href="{{ site.baseurl }}/static/descargas/gamedev/demo.tar.gz" download>
+    Demo
   </a>
 </div>
