@@ -31,6 +31,8 @@ Estos son los archivos que probablemente se vean o mencionen a lo largo del tall
   </a>
 </div>
 
+De encontrar algún error o improvisto con la descarga de los archivos, avisar a los talleristas.
+
 ## Contenido adicional
 
 Seguro que alguno de los talleristas (cuyo nombre empieza con _T_ y termina con _omi_) estuvo toda la explicación hablando de distintos eventos, empresas, personajes o videojuegos pintorescos.
