@@ -31,6 +31,8 @@ Estos son los archivos que probablemente se vean o mencionen a lo largo del tall
   </a>
 </div>
 
+De encontrar algún error o improvisto con la descarga de los archivos, avisar a los talleristas.
+
 ## Contenido adicional
 
 Seguro que alguno de los talleristas (cuyo nombre empieza con _T_ y termina con _omi_) estuvo toda la explicación hablando de distintos eventos, empresas, personajes o videojuegos pintorescos.
@@ -61,7 +63,6 @@ Dejamos aca un listado de documentales, libros, entrevistas, peliculas o conteni
 ### Lecturas
 
 - [Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture - David Kushner](https://en.wikipedia.org/wiki/Masters_of_Doom)
-
 - [Game Engine Black Book: Wolfenstein - Fabien Sanglard](https://fabiensanglard.net/gebbwolf3d/)
 - [Game Engine Black Book: Doom - Fabien Sanglard](https://fabiensanglard.net/gebbdoom/)
 - [Console Wars - Blake J. Harris](https://en.wikipedia.org/wiki/Console_Wars_(book))
