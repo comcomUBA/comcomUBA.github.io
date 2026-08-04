@@ -1,7 +1,10 @@
 ---
-layout: page
+layout: codep
 title: CoDep
+permalink: /codep/
 ---
+
+<a class="codep-item-link" href="{{ '/codep/presentaciones/' | relative_url }}">Presentaciones de candidates</a>
 
 El Consejo Departamental (*CoDep*) es un organismo integrado por representantes de los tres claustros del departamento: estudiantes (2 titulares), graduades (2 titulares), y profesores (3 titulares). Además de les representantes titulares, por cada claustro puede haber suplentes.
 

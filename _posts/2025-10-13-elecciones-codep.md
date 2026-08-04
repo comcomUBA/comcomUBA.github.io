@@ -12,7 +12,7 @@ Recordamos que todas las personas interesadas en votar, deberán presentarse con
 
 Los representantes en el CODEP (también conocidos como codeppers) votan en
 representación del claustro estudiantil. Para más info de qué es el CODEP y por
-qué es importante votar, [acá](https://comcom.dc.uba.ar/codep.html).
+qué es importante votar, [acá](https://comcom.dc.uba.ar/codep/).
 
 Les candidates que se presentan son:
 + Ernesto Ittig 685/24
