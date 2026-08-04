@@ -7,7 +7,7 @@ date:   2024-09-02 20:26:00 -0300
 Está abierta la presentación de candidaturas para el CODEP de estudiantes. Los
 representantes en el CODEP (también conocidos como codeppers) votan en
 representación del claustro estudiantil. Para más info de qué es el CODEP y por
-qué es importante presentarse, [acá](https://comcom.dc.uba.ar/codep.html).
+qué es importante presentarse, [acá](https://comcom.dc.uba.ar/codep/).
 
 Esta semana de son las elecciones del centro de estudiantes/consejo superior.
 Las últimas son OBLIGATORIAS. Si tienen dudas de horarios/lugares, pueden mirar

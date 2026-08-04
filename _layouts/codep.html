@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+
+    {% if page.year %}
+      {% assign candidatos = site.data.codep_presentaciones[page.year] %}
+      <ul class="codep-candidatos-index">
+        {% for candidato in candidatos %}
+          <li><a href="#{{ candidato.nombre | slugify }}">{{ candidato.nombre }}</a></li>
+        {% endfor %}
+      </ul>
+
+      {% for candidato in candidatos %}
+        <div class="codep-candidatura-box">
+          <h2 class="codep-candidato-nombre" id="{{ candidato.nombre | slugify }}">{{ candidato.nombre }}</h2>
+          <div class="codep-candidatura">
+            {{ candidato.contenido | markdownify }}
+          </div>
+        </div>
+      {% endfor %}
+    {% endif %}
+  </div>
+
+</article>

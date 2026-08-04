@@ -11,6 +11,8 @@ html {
   --main-text-color: rgb(51, 51, 51);
   --background-color2: rgb(255, 255, 255);
   --background-color3 : #fff;
+  --card-background-color: rgb(234, 235, 240);
+  --card-border-color: rgb(195, 198, 207);
   --logo: #231f20;
   --site-logo-url: url("/static/img/comcom/logo-horizontal.min.svg");
   --taller-logo-url: url("/static/img/comcom/logo.min.svg");
@@ -25,6 +27,8 @@ html {
     --background-color: rgb(28, 28, 30);
     --background-color2: rgb(15, 15, 20);
     --main-text-color: rgb(229, 229, 234);
+    --card-background-color: rgb(52, 53, 58);
+    --card-border-color: rgb(90, 92, 100);
     --background-color3: #b4b4b4;
     --logo: #b4b4b4;
     --site-logo-url: url("/static/img/mocmoc/logo-horizontal.min.svg");
@@ -406,4 +410,57 @@ footer {
 @media screen and (max-width: 600px) {
   .paro-flyer img { max-width: 100%; }
   .btn-inscripcion { font-size: 16px; padding: 12px 24px; }
+}
+
+.codep-item-link {
+  display: inline-block;
+  background-color: var(--link-color);
+  color: var(--background-color3) !important;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.codep-item-link:hover {
+  opacity: 0.85;
+  color: var(--background-color3) !important;
+  text-decoration: none;
+}
+
+.codep-candidatos-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+
+.codep-candidatura-box {
+  background-color: var(--card-background-color);
+  border: 1px solid var(--card-border-color);
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+.codep-candidato-nombre {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.codep-candidatura h1,
+.codep-candidatura h2,
+.codep-candidatura h3 {
+  font-size: 18px;
+}
+
+.codep-candidatura h4,
+.codep-candidatura h5,
+.codep-candidatura h6 {
+  font-size: 16px;
 }
