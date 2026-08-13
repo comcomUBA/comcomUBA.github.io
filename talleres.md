@@ -1,8 +1,10 @@
 ---
-layout: redirect
+layout: tallerIndex
 title: Talleres
 permalink: /talleres/
-redirect_to: /talleres/paro/
+tallerid: talleres
+weight: 0
+tags: index
 ---
 
 ¿Querés aprender a usar herramientas clave para tu carrera? Desde la Comisión de Estudiantes de Computación (ComCom), seguimos organizando talleres pensados para estudiantes dictados por estudiantes, con el apoyo del Departamento de Computación.
