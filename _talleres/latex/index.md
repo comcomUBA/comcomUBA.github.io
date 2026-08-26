@@ -38,3 +38,11 @@ Y como frutilla del postre: cuando tus compañeros sigan luchando con Word porqu
 
 # Inscribite [acá]({{ site.baseurl }}/talleres/latex/inscripcion/).
 
+## Materiales
+
+<div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 24px;">
+  <a class="btn-inscripcion" href="{{ site.baseurl }}/static/descargas/latex/clase_latex.pdf" download>
+    Diapositivas
+  </a>
+</div>
+
