@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Elecciones CODEP estudiantiles 2026"
-date:   2026-08-31
+date:  2026-08-31
 ---
 
 Recordamos que desde **hoy hasta el viernes 4 de Septiembre**, entre las 14 y las 19hs, 
