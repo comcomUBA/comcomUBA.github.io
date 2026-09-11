@@ -12,7 +12,7 @@ De cualquier manera, en 2024 grabamos las clases para quienes no pudieron asisti
 
 ## Diapositivas del curso
 
-Tenemos las diapositivas y foros para consultas en nuestro [campus](https://campus.exactas.uba.ar/course/view.php?id=416).
+* [Clase 1]({{ site.baseurl }}/static/descargas/git/clase1.pdf){:target="_blank"}.
 
 
 ## Links de interés
