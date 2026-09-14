@@ -13,6 +13,7 @@ De cualquier manera, en 2024 grabamos las clases para quienes no pudieron asisti
 ## Diapositivas del curso
 
 * [Clase 1]({{ site.baseurl }}/static/descargas/git/clase1.pdf){:target="_blank"}.
+* [Clase 2]({{ site.baseurl }}/static/descargas/git/clase2.pdf){:target="_blank"}.
 
 
 ## Links de interés
