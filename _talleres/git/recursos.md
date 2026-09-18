@@ -14,6 +14,7 @@ De cualquier manera, en 2024 grabamos las clases para quienes no pudieron asisti
 
 * [Clase 1]({{ site.baseurl }}/static/descargas/git/clase1.pdf){:target="_blank"}.
 * [Clase 2]({{ site.baseurl }}/static/descargas/git/clase2.pdf){:target="_blank"}.
+* [Clase 3]({{ site.baseurl }}/static/descargas/git/clase3.pdf){:target="_blank"}.
 
 
 ## Links de interés
