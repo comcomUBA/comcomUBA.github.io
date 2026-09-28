@@ -1,0 +1,251 @@
+/* Ghost in The HAL — kit de marca de static/img/hack/paleta.txt
+   Esta hoja solo se carga en /hackaton/, así que pisa las variables globales
+   de main.css para que toda la página (header y footer incluidos) quede oscura
+   en cualquier esquema de color.
+   Va en :root y no en html porque variables.css define --border-color sobre
+   :root, que gana por especificidad contra un selector de tipo. */
+:root {
+  --hk-bg: #140E02;
+  --hk-gold: #C29F24;
+  --hk-bright: #E6C03D;
+  --hk-text: #C9B77A;
+  --hk-muted: #9C8A55;
+  --hk-line: #6B5A28;
+  --hk-mono: "JetBrains Mono", "Hack", "DejaVu Sans Mono", ui-monospace, monospace;
+  --hk-display: "Silkscreen", "JetBrains Mono", monospace;
+
+  --background-color: var(--hk-bg);
+  --background-color2: #1C1505;
+  --background-color3: var(--hk-bg);
+  --main-text-color: var(--hk-text);
+  --light-text-color: var(--hk-muted);
+  --link-color: var(--hk-bright);
+  --card-background-color: #1C1505;
+  --card-border-color: var(--hk-line);
+  --border-color: var(--hk-line);
+  --shadow-color: #000;
+  --site-logo-url: url("/static/img/hack/comcom-dorado.svg");
+  --taller-logo-url: url("/static/img/hack/comcom-dorado.svg");
+}
+
+body.hackaton-body {
+  background-color: var(--hk-bg);
+  color: var(--hk-text);
+  font-family: var(--hk-mono);
+}
+
+.hackaton-body .site-footer { border-top: 1px solid var(--hk-line); box-shadow: none; }
+.hackaton-body .site-header { border-bottom: 1px solid var(--hk-line); }
+
+/* main.css le pone fondo blanco y radio a toda <img> cuando el sistema está en
+   dark mode; acá todas las imágenes ya vienen sobre la placa. */
+.hackaton img { background-color: transparent; border-radius: 0; }
+
+.hackaton {
+  max-width: 820px;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.hackaton p { margin-bottom: 18px; }
+.hackaton a { color: var(--hk-bright); text-decoration: underline; text-underline-offset: 3px; }
+.hackaton a:hover { color: #fff; }
+.hackaton strong { color: var(--hk-bright); font-weight: 700; }
+
+/* --- Títulos --- */
+.hackaton h1, .hackaton h2, .hackaton h3 {
+  font-family: var(--hk-display);
+  font-weight: 700;
+  color: var(--hk-bright);
+  line-height: 1.25;
+}
+
+.hackaton h2 {
+  font-size: 21px;
+  margin: 56px 0 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--hk-line);
+}
+
+.hackaton h3 { font-size: 15px; margin: 26px 0 8px; color: var(--hk-gold); }
+
+.hk-kicker {
+  font-family: var(--hk-mono);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--hk-gold);
+  margin-bottom: 14px;
+}
+
+/* --- Hero --- */
+.hk-hero {
+  border: 1px solid var(--hk-line);
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.hk-hero-placa {
+  height: 120px;
+  background-image: url("/static/img/hack/placa-kiwi.png");
+  background-size: cover;
+  background-position: center 30%;
+  border-bottom: 1px solid var(--hk-line);
+}
+
+.hk-hero-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 300px);
+  gap: 24px;
+  align-items: center;
+  padding: 36px 32px 34px;
+}
+
+.hk-hero h1 {
+  font-size: 46px;
+  letter-spacing: 2px;
+  margin-bottom: 22px;
+}
+
+.hk-hero h1 span { display: block; }
+
+.hk-datos {
+  list-style: none;
+  margin: 0 0 26px;
+  padding: 0;
+  font-size: 15px;
+  color: var(--hk-text);
+}
+
+.hk-datos li { display: flex; gap: 12px; padding: 3px 0; }
+.hk-datos .hk-k { color: var(--hk-muted); flex: 0 0 76px; }
+
+.hk-hero-kiwi img { width: 100%; display: block; }
+
+/* --- Botones --- */
+.hk-btn {
+  display: inline-block;
+  background-color: var(--hk-bright);
+  color: var(--hk-bg) !important;
+  border: 1px solid var(--hk-bright);
+  padding: 14px 32px;
+  font-family: var(--hk-mono);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-decoration: none !important;
+}
+
+.hk-btn:hover { background-color: var(--hk-bg); color: var(--hk-bright) !important; }
+
+.hk-btn-nota { font-size: 12px; color: var(--hk-muted); margin: 10px 0 0; }
+
+.hk-cta { text-align: center; margin: 48px 0 8px; padding: 32px; border: 1px solid var(--hk-line); }
+.hk-cta p { margin-bottom: 20px; }
+
+/* --- Números --- */
+.hk-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  list-style: none;
+  margin: 0 0 8px;
+  padding: 0;
+  background-color: var(--hk-line);
+  border: 1px solid var(--hk-line);
+}
+
+.hk-stats li { background-color: var(--hk-bg); padding: 18px 8px; text-align: center; }
+.hk-stats .hk-num { display: block; font-family: var(--hk-display); font-size: 30px; color: var(--hk-bright); line-height: 1.2; }
+.hk-stats .hk-label { display: block; font-size: 11px; color: var(--hk-muted); text-transform: uppercase; letter-spacing: 1.5px; }
+
+/* --- Pasos (cómo funciona) --- */
+.hk-pasos { list-style: none; margin: 0; padding: 0; counter-reset: paso; }
+
+.hk-pasos li {
+  counter-increment: paso;
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr);
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--hk-line);
+}
+
+.hk-pasos li::before {
+  content: "0" counter(paso);
+  font-family: var(--hk-display);
+  font-size: 18px;
+  color: var(--hk-gold);
+}
+
+.hk-pasos b { display: block; color: var(--hk-bright); }
+.hk-pasos li > span { display: block; }
+
+/* --- La placa --- */
+.hk-placa { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 380px); gap: 28px; align-items: start; }
+.hk-placa img { width: 100%; display: block; border: 1px solid var(--hk-line); }
+
+.hk-specs { list-style: none; margin: 0 0 18px; padding: 0; font-size: 14px; }
+.hk-specs li { padding: 7px 0; border-bottom: 1px solid var(--hk-line); }
+.hk-specs li::before { content: "▸ "; color: var(--hk-gold); }
+
+/* --- Cronograma --- */
+.hk-crono { list-style: none; margin: 0 0 10px; padding: 0; font-size: 14px; }
+.hk-crono li { display: flex; gap: 16px; padding: 9px 0; border-bottom: 1px solid var(--hk-line); }
+.hk-crono .hk-hora { flex: 0 0 116px; color: var(--hk-muted); white-space: nowrap; }
+
+.hk-dia { font-family: var(--hk-display); font-size: 14px; color: var(--hk-bright); margin: 28px 0 10px; }
+
+/* --- Sponsors --- */
+.hk-sponsors { display: flex; flex-wrap: wrap; align-items: center; gap: 44px; list-style: none; margin: 0 0 20px; padding: 26px 30px; border: 1px solid var(--hk-line); }
+.hk-sponsors img { height: 46px; width: auto; display: block; }
+.hk-sponsors li.hk-sponsor-chico img { height: 74px; }
+
+/* --- FAQ --- */
+.hk-faq { margin: 0; }
+.hk-faq details { border-bottom: 1px solid var(--hk-line); padding: 4px 0; }
+.hk-faq summary { cursor: pointer; padding: 13px 0; color: var(--hk-bright); font-weight: 700; list-style: none; }
+.hk-faq summary::-webkit-details-marker { display: none; }
+.hk-faq summary::before { content: "+ "; color: var(--hk-gold); }
+.hk-faq details[open] summary::before { content: "− "; }
+.hk-faq details p { margin: 0 0 14px; padding-left: 20px; color: var(--hk-text); }
+
+/* --- Avisos de "todavía no sabemos" --- */
+.hk-pendiente {
+  border: 1px dashed var(--hk-line);
+  padding: 22px 24px;
+  color: var(--hk-muted);
+  font-size: 14px;
+  text-align: center;
+}
+
+.hk-pendiente p:last-child { margin-bottom: 0; }
+
+.hk-nota { font-size: 13px; color: var(--hk-muted); }
+
+.hk-franja {
+  height: 90px;
+  margin: 48px 0;
+  background-image: url("/static/img/hack/placa-kiwi.png");
+  background-size: cover;
+  background-position: center;
+  border-top: 1px solid var(--hk-line);
+  border-bottom: 1px solid var(--hk-line);
+}
+
+@media screen and (max-width: 720px) {
+  .hk-hero-body { grid-template-columns: 1fr; padding: 26px 20px; }
+  .hk-hero-kiwi { max-width: 240px; margin: 0 auto; }
+  .hk-hero h1 { font-size: 32px; }
+  .hk-placa { grid-template-columns: 1fr; }
+  .hk-stats { grid-template-columns: 1fr; gap: 1px; }
+  .hk-stats li { display: flex; align-items: baseline; justify-content: center; gap: 12px; padding: 12px; }
+  .hk-stats .hk-num { font-size: 24px; }
+  .hk-crono li { flex-direction: column; gap: 2px; }
+  .hk-crono .hk-hora { flex: none; }
+  .hk-sponsors { gap: 28px; justify-content: center; padding: 22px; }
+  .hk-cta { padding: 24px 18px; }
+  .hackaton h2 { font-size: 18px; margin-top: 44px; }
+}

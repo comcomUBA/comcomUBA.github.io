@@ -18,6 +18,10 @@
   
     <link rel="stylesheet" href="{{ "/thirdparty/lightbox2/css/lightbox.min.css" | prepend: site.baseurl }}">
   
+
+    {% if customHead %}
+      {% include {{ customHead }} %}
+    {% endif %}
     <script>
       if (window.location.hostname == "comcom.github.io") {
         window.location.href = "{{ site.baseurl | prepend: site.url }}" + window.location.pathname.replace(/^\/taller\-git/, "");

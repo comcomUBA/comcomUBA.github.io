@@ -1,0 +1,12 @@
+Ghost in the HAL — paleta y tipografías
+
+Fondo            #140E02
+Dorado (acento)  #C29F24
+Dorado brillante #E6C03D  (títulos y texto destacado)
+Texto secundario #C9B77A
+Texto tenue      #9C8A55
+Líneas finas     #6B5A28
+
+Títulos: Silkscreen Bold (Google Fonts)
+Texto:   JetBrains Mono 400 / 700 / 800 (Google Fonts)
+Imágenes pixeladas (kiwis, placa): usar CSS image-rendering: pixelated
