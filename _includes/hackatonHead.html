@@ -1,0 +1,21 @@
+{%- comment -%}
+  Extras solo para /hackaton/: tipografías del kit de marca y tarjeta para
+  compartir el link (Telegram, WhatsApp, Twitter). Se engancha con la variable
+  customHead desde _layouts/hackaton.html.
+{%- endcomment -%}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=JetBrains+Mono:wght@400;700;800&display=swap">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ComCom">
+<meta property="og:locale" content="es_AR">
+<meta property="og:title" content="Ghost in The HAL — Hackatón de hardware de la ComCom">
+<meta property="og:description" content="23 y 24 de octubre de 2026 en Exactas, UBA. 20 equipos, 4 personas cada uno, dos días y una placa de desarrollo para armar algo desde cero.">
+<meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
+<meta property="og:image" content="{{ '/static/img/hack/og-preview.png' | prepend: site.baseurl | prepend: site.url }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ghost in The HAL, hackatón de hardware de la ComCom, 23 y 24 de octubre, FCEyN UBA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#140E02">
