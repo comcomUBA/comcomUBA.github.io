@@ -34,7 +34,7 @@ permalink: /hackaton/
 
 Te juntás con tres personas más, te damos una placa de desarrollo y tenés dos días para convertirla en algo que funcione.
 
-Al final lo presentás en tres minutos. No hace falta que sepas de hardware: hace falta que tengas ganas de romper algo y volver a armarlo.
+Al final lo presentás en tres minutos. No hace falta que sepas de hardware, solo que tengas ganas de aprender algo nuevo.
 
 ## Cómo funciona
 
