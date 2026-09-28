@@ -199,7 +199,7 @@ body.hackaton-body {
 .hk-dia { font-family: var(--hk-display); font-size: 14px; color: var(--hk-bright); margin: 28px 0 10px; }
 
 /* --- Sponsors --- */
-.hk-sponsors { display: flex; flex-wrap: wrap; align-items: center; gap: 44px; list-style: none; margin: 0 0 20px; padding: 26px 30px; border: 1px solid var(--hk-line); }
+.hk-sponsors { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 44px; list-style: none; margin: 0 0 20px; padding: 26px 30px; border: 1px solid var(--hk-line); }
 .hk-sponsors img { height: 46px; width: auto; display: block; }
 .hk-sponsors li.hk-sponsor-chico img { height: 74px; }
 
@@ -245,7 +245,7 @@ body.hackaton-body {
   .hk-stats .hk-num { font-size: 24px; }
   .hk-crono li { flex-direction: column; gap: 2px; }
   .hk-crono .hk-hora { flex: none; }
-  .hk-sponsors { gap: 28px; justify-content: center; padding: 22px; }
+  .hk-sponsors { gap: 28px; padding: 22px; }
   .hk-cta { padding: 24px 18px; }
   .hackaton h2 { font-size: 18px; margin-top: 44px; }
 }
