@@ -88,7 +88,7 @@ Al final lo presentás en tres minutos. No hace falta que sepas de hardware: hac
   </details>
   <details>
     <summary>¿Puedo anotarme sin equipo?</summary>
-    <p>En principio no: los equipos son de cuatro. Igual, si no tenés grupo, poné <strong>"No tengo grupo"</strong> en el campo <em>Nombre del equipo</em> del formulario y vemos qué onda. No prometemos nada, pero así al menos sabemos que estás.</p>
+    <p>Los equipos son de cuatro y tienen prioridad los que ya vienen armados. Igual, si no tenés grupo, marcá la casilla <strong>"No tengo grupo"</strong> en el formulario y vemos qué onda. No prometemos nada, pero así al menos sabemos que estás.</p>
   </details>
   <details>
     <summary>¿Qué tengo que llevar?</summary>
