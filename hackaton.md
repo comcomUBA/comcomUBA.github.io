@@ -52,10 +52,43 @@ Al final lo presentás en tres minutos. No hace falta que sepas de hardware, sol
   <p><strong>Próximamente.</strong></p>
 </div>
 
-## Cronograma
+## Cronograma <span class="hk-new">NEW!</span> {#cronograma}
 
-<div class="hk-pendiente">
-  <p><strong>Próximamente.</strong></p>
+<div class="hk-crono-intro">
+  <p class="hk-nota">Este cronograma es tentativo y está sujeto a cambios.</p>
+  <img src="/static/img/hack/kiwi-pelo.png" width="64" alt="Cabeza de un kiwi dibujado en dorado, con el pelo largo">
+</div>
+
+<p class="hk-dia">Viernes 23 de octubre</p>
+
+<div class="hk-crono-dia hk-crono-izq">
+<img src="/static/img/hack/kiwi-pizarron.png" width="170" alt="Un kiwi dibujado en dorado dando una charla frente a un pizarrón">
+<ul class="hk-crono">
+  <li><span class="hk-hora">9:00 – 10:00</span><span>Acreditación y desayuno</span></li>
+  <li><span class="hk-hora">10:15 – 11:45</span><span>Charla inaugural e introducción al entorno de desarrollo</span></li>
+  <li><span class="hk-hora">12:00 – 13:00</span><span>Almuerzo</span></li>
+  <li><span class="hk-hora">13:15 – 14:30</span><span>Charla de sponsor: ???</span></li>
+  <li><span class="hk-hora">16:00 – 16:45</span><span>Charla de sponsor: ???</span></li>
+  <li><span class="hk-hora">17:00 – 17:45</span><span>Merienda</span></li>
+  <li><span class="hk-hora">18:00 – 19:30</span><span>Charla de sponsor: ???</span></li>
+  <li><span class="hk-hora">20:00 – 21:00</span><span>Charla de sponsor: ???</span></li>
+</ul>
+</div>
+
+<p class="hk-dia">Sábado 24 de octubre</p>
+
+<div class="hk-crono-dia">
+<ul class="hk-crono">
+  <li><span class="hk-hora">10:00</span><span>Café</span></li>
+  <li><span class="hk-hora">11:00</span><span>Entrega de proyectos</span></li>
+  <li><span class="hk-hora">11:00 – 14:00</span><span>Pitch al jurado y revisión técnica del proyecto</span></li>
+  <li><span class="hk-hora">12:00</span><span>Almuerzo</span></li>
+  <li><span class="hk-hora">14:15 – 15:15</span><span>Pitch público y anuncio del ganador</span></li>
+  <li><span class="hk-hora">15:00</span><span>Merienda</span></li>
+  <li><span class="hk-hora">16:00</span><span>Charla de cierre, retrospectiva y agradecimiento a sponsors</span></li>
+  <li><span class="hk-hora">17:00</span><span>Fin del evento</span></li>
+</ul>
+<img src="/static/img/hack/kiwi-guardapolvo.png" width="170" alt="Un kiwi dibujado en dorado con guardapolvo">
 </div>
 
 <div class="hk-franja"></div>
@@ -87,8 +120,12 @@ Al final lo presentás en tres minutos. No hace falta que sepas de hardware, sol
     <p>No. Hay una introducción al entorno de desarrollo desde cero. Ayuda saber programar en algún lenguaje, pero no hace falta haber tocado un microcontrolador nunca.</p>
   </details>
   <details>
-    <summary>¿Puedo anotarme sin equipo?</summary>
+    <summary>¿Puedo anotarme sin equipo? <span class="hk-new">NEW!</span></summary>
     <p>Sí, pero tienen prioridad los equipos completos. Si no tenés grupo, marcá la casilla <strong>"No tengo grupo"</strong> en el formulario. También podés dejar un mensaje en el <a href="https://timbear.gratis/muro/">muro que armamos para la hackatón</a> y conectar con otras personas que estén buscando equipo.</p>
+  </details>
+  <details>
+    <summary>¿Todos los integrantes del grupo tienen que estar el viernes a la mañana? <span class="hk-new">NEW!</span></summary>
+    <p>No, no es obligatorio. Entendemos que mucha gente los viernes va a estar trabajando en el horario de apertura del evento. Pero sí queremos que la mayor cantidad de gente pueda participar plenamente, y esto incluye poder venir los dos días.</p>
   </details>
   <details>
     <summary>¿Qué tengo que llevar?</summary>

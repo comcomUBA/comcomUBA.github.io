@@ -196,6 +196,16 @@ body.hackaton-body {
 .hk-crono li { display: flex; gap: 16px; padding: 9px 0; border-bottom: 1px solid var(--hk-line); }
 .hk-crono .hk-hora { flex: 0 0 116px; color: var(--hk-muted); white-space: nowrap; }
 
+/* La cabeza del kiwi cuelga justo debajo de la línea del título "Cronograma",
+   sin ocupar lugar en el flujo del texto. */
+.hk-crono-intro { position: relative; }
+.hk-crono-intro .hk-nota { margin: 0; padding-right: 90px; }
+.hk-crono-intro img { position: absolute; right: 0; top: -8px; width: 64px; height: auto; }
+.hk-crono-dia { display: grid; grid-template-columns: minmax(0, 1fr) 170px; gap: 28px; align-items: center; }
+.hk-crono-dia img, .hk-crono-intro img { display: block; }
+.hk-crono-dia img { width: 100%; height: auto; }
+.hk-crono-dia.hk-crono-izq { grid-template-columns: 170px minmax(0, 1fr); }
+
 .hk-dia { font-family: var(--hk-display); font-size: 14px; color: var(--hk-bright); margin: 28px 0 10px; }
 
 /* --- Sponsors --- */
@@ -235,6 +245,61 @@ body.hackaton-body {
   border-bottom: 1px solid var(--hk-line);
 }
 
+/* --- Cartelito NEW! (como en timbear.gratis) --- */
+@keyframes hk-titila { 50% { opacity: 0; } }
+
+.hk-new {
+  display: inline-block;
+  margin-left: 10px;
+  background: #ff0;
+  color: #f00;
+  font-family: var(--hk-mono);
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1.4;
+  letter-spacing: 0;
+  padding: 1px 6px;
+  border: 2px solid #f00;
+  border-radius: 4px;
+  transform: rotate(10deg);
+  vertical-align: middle;
+  animation: hk-titila 0.9s step-start infinite;
+}
+
+/* --- Gnomo caminando abajo de todo (como en timbear.gratis) --- */
+@keyframes hk-gnomo-camina {
+  from { left: -70px; }
+  to   { left: 100vw; }
+}
+@keyframes hk-gnomo-rebota {
+  0%, 100% { transform: translateY(0) scaleY(1); }
+  25%      { transform: translateY(-4px) scaleY(1.05); }
+  50%      { transform: translateY(0) scaleY(1); }
+  75%      { transform: translateY(-2px) scaleY(0.97); }
+}
+
+.hk-gnomo {
+  position: fixed;
+  bottom: 6px;
+  left: -70px;
+  width: 44px;
+  height: 70px;
+  cursor: pointer;
+  z-index: 10;
+  animation: hk-gnomo-camina 24s linear infinite;
+}
+.hk-gnomo:hover img { filter: drop-shadow(0 0 8px var(--hk-bright)); }
+.hk-gnomo img { width: 100%; height: 100%; display: block; background-color: transparent; border-radius: 0; animation: hk-gnomo-rebota .45s steps(4) infinite; }
+
+/* Que el gnomo no tape el final del footer. */
+.hackaton-body .site-footer { padding-bottom: 80px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .hk-new { animation: none; }
+  .hk-gnomo, .hk-gnomo img { animation: none; }
+  .hk-gnomo { left: auto; right: 12px; }
+}
+
 @media screen and (max-width: 720px) {
   .hk-hero-body { grid-template-columns: 1fr; padding: 26px 20px; }
   .hk-hero-kiwi { max-width: 240px; margin: 0 auto; }
@@ -245,6 +310,11 @@ body.hackaton-body {
   .hk-stats .hk-num { font-size: 24px; }
   .hk-crono li { flex-direction: column; gap: 2px; }
   .hk-crono .hk-hora { flex: none; }
+  .hk-crono-dia, .hk-crono-dia.hk-crono-izq { grid-template-columns: 1fr; gap: 16px; }
+  .hk-crono-izq img { order: 1; }
+  .hk-crono-dia img { max-width: 150px; margin: 0 auto; }
+  .hk-crono-intro img { width: 50px; }
+  .hk-crono-intro .hk-nota { padding-right: 62px; }
   .hk-sponsors { gap: 28px; padding: 22px; }
   .hk-cta { padding: 24px 18px; }
   .hackaton h2 { font-size: 18px; margin-top: 44px; }
