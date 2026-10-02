@@ -88,7 +88,7 @@ Al final lo presentás en tres minutos. No hace falta que sepas de hardware, sol
   </details>
   <details>
     <summary>¿Puedo anotarme sin equipo?</summary>
-    <p>Sí, pero tienen prioridad los equipos completos. Si no tenés grupo, marcá la casilla <strong>"No tengo grupo"</strong> en el formulario.</p>
+    <p>Sí, pero tienen prioridad los equipos completos. Si no tenés grupo, marcá la casilla <strong>"No tengo grupo"</strong> en el formulario. También podés dejar un mensaje en el <a href="https://timbear.gratis/muro/">muro que armamos para la hackatón</a> y conectar con otras personas que estén buscando equipo.</p>
   </details>
   <details>
     <summary>¿Qué tengo que llevar?</summary>
