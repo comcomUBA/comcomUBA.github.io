@@ -46,11 +46,11 @@ La modalidad de todos los talleres es presencial, en los labos de la facu.
 
 <div class="paro-inscripcion" style="margin-top: 24px;"><a class="btn-inscripcion" href="https://forms.gle/G8CMEzGPZ15DfNXz6" target="_blank" rel="noopener">Inscribirse a WebDev</a></div>
 
-## Kubernetes (en dos partes) — jueves 22/10 y viernes 30/10, 17 a 20 hs
+## Kubernetes (en dos partes) — jueves 22/10, 17 a 20 hs y viernes 30/10, 18 a 21 hs
 
 ¿Sabés programar una aplicación, pero no cómo se hace para que la usen millones de personas sin caerse? ¿Ya usaste Docker y te preguntaste cómo pasan las empresas de un par de contenedores a sistemas enormes que nunca se apagan? La carrera te da las bases, ¡venite a ver cómo se aplican en la industria! Vas a aprender a desplegar y operar aplicaciones con Kubernetes, una herramienta que hoy usan tanto desarrolladores como equipos de DevOps.
 
-**Este taller se dicta en dos partes:** la primera el jueves 22/10 y la segunda el viernes 30/10, las dos de 17 a 20 hs.
+**Este taller se dicta en dos partes:** la primera el jueves 22/10, de 17 a 20 hs, y la segunda el viernes 30/10, de 18 a 21 hs.
 
 Recomendado para estudiantes de los últimos años de la carrera.
 
