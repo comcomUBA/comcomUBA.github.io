@@ -64,14 +64,14 @@ Al final lo presentás en tres minutos. No hace falta que sepas de hardware, sol
 <div class="hk-crono-dia hk-crono-izq">
 <img src="/static/img/hack/kiwi-pizarron.png" width="170" alt="Un kiwi dibujado en dorado dando una charla frente a un pizarrón">
 <ul class="hk-crono">
-  <li><span class="hk-hora">9:00 – 10:00</span><span>Acreditación y desayuno</span></li>
-  <li><span class="hk-hora">10:15 – 11:45</span><span>Charla inaugural e introducción al entorno de desarrollo</span></li>
-  <li><span class="hk-hora">12:00 – 13:00</span><span>Almuerzo</span></li>
-  <li><span class="hk-hora">13:15 – 14:30</span><span>Charla de sponsor: ???</span></li>
-  <li><span class="hk-hora">16:00 – 16:45</span><span>Charla de sponsor: ???</span></li>
-  <li><span class="hk-hora">17:00 – 17:45</span><span>Merienda</span></li>
-  <li><span class="hk-hora">18:00 – 19:30</span><span>Charla de sponsor: ???</span></li>
-  <li><span class="hk-hora">20:00 – 21:00</span><span>Charla de sponsor: ???</span></li>
+  <li><span class="hk-hora">9:00</span><span>Acreditación y desayuno</span></li>
+  <li><span class="hk-hora">10:00 – 11:45</span><span>Charla inaugural e introducción al entorno de desarrollo</span></li>
+  <li><span class="hk-hora">12:00</span><span>Almuerzo</span></li>
+  <li><span class="hk-hora">13:00 – 14:00</span><span>Charla de sponsor: Gcoop</span></li>
+  <li><span class="hk-hora">16:00 – 16:45</span><span>Charla de sponsor: LambdaClass</span></li>
+  <li><span class="hk-hora">17:00</span><span>Merienda</span></li>
+  <li><span class="hk-hora">18:00 – 19:30</span><span>Charla de sponsor: MarsupialRF</span></li>
+  <li><span class="hk-hora">20:00 – 21:00</span><span>Charla de sponsor: EasyEDA</span></li>
 </ul>
 </div>
 
@@ -80,10 +80,9 @@ Al final lo presentás en tres minutos. No hace falta que sepas de hardware, sol
 <div class="hk-crono-dia">
 <ul class="hk-crono">
   <li><span class="hk-hora">10:00</span><span>Café</span></li>
-  <li><span class="hk-hora">11:00</span><span>Entrega de proyectos</span></li>
   <li><span class="hk-hora">11:00 – 14:00</span><span>Pitch al jurado y revisión técnica del proyecto</span></li>
-  <li><span class="hk-hora">12:00</span><span>Almuerzo</span></li>
-  <li><span class="hk-hora">14:15 – 15:15</span><span>Pitch público y anuncio del ganador</span></li>
+  <li><span class="hk-hora">12:00</span><span>Entrega de proyectos y almuerzo</span></li>
+  <li><span class="hk-hora">14:00</span><span>Pitch público y anuncio de ganadores</span></li>
   <li><span class="hk-hora">15:00</span><span>Merienda</span></li>
   <li><span class="hk-hora">16:00</span><span>Charla de cierre, retrospectiva y agradecimiento a sponsors</span></li>
   <li><span class="hk-hora">17:00</span><span>Fin del evento</span></li>
