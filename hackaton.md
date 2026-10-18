@@ -15,8 +15,7 @@ permalink: /hackaton/
         <li><span class="hk-k">Dónde</span><span>FCEyN · Ciudad Universitaria · UBA</span></li>
         <li><span class="hk-k">Formato</span><span>20 equipos de 4 · 2 días · una placa</span></li>
       </ul>
-      <a class="hk-btn" href="https://hackathon.timbear.gratis/forms/preregistro">Preinscribite</a>
-      <p class="hk-btn-nota">Es gratis. Cupos limitados.</p>
+      <p class="hk-cerrado">La preinscripción ya cerró.</p>
     </div>
     <div class="hk-hero-kiwi">
       <img src="/static/img/hack/kiwi-laptop.png" alt="Un kiwi dibujado en dorado programando en una laptop">
@@ -30,29 +29,42 @@ permalink: /hackaton/
   <li><span class="hk-num">2</span><span class="hk-label">días</span></li>
 </ul>
 
-## Qué es
+<nav class="hk-indice" aria-label="Secciones de la página">
+  <a href="#que-es">Qué es</a>
+  <a href="#como-funciona">Cómo funciona</a>
+  <a href="#placa">La placa</a>
+  <a href="#cronograma">Cronograma</a>
+  <a href="#premios">Premios y jurado</a>
+  <a href="#sponsors">Sponsors</a>
+  <a href="#faq">Preguntas frecuentes</a>
+  <a href="#quienes-somos">Quiénes somos</a>
+  <a href="#contacto">Contacto</a>
+  <a href="#codigo-de-conducta">Código de conducta</a>
+</nav>
+
+## Qué es [#](#que-es){: .hk-ancla aria-label="Link a esta sección"} {#que-es}
 
 Te juntás con tres personas más, te damos una placa de desarrollo y tenés dos días para convertirla en algo que funcione.
 
-Al final lo presentás en tres minutos. No hace falta que sepas de hardware, solo que tengas ganas de aprender algo nuevo.
+Al final se lo presentás al jurado. No hace falta que sepas de hardware, solo que tengas ganas de aprender algo nuevo.
 
-## Cómo funciona
+## Cómo funciona [#](#como-funciona){: .hk-ancla aria-label="Link a esta sección"} {#como-funciona}
 
 <ol class="hk-pasos">
   <li><span><b>Te anotás con tu equipo</b>Cuatro personas por equipo, 20 equipos en total.</span></li>
   <li><span><b>Arrancás el viernes</b>Charla inaugural, introducción al entorno de desarrollo y a laburar. Durante el evento hay charlas de cooperativismo y de los sponsors.</span></li>
   <li><span><b>Dos días para armar algo</b>Un producto o una solución alrededor de la placa. El sábado se entregan los proyectos.</span></li>
-  <li><span><b>Pitch de 3 minutos al jurado</b>Cada equipo presenta y el jurado revisa el proyecto de forma técnica. De ahí sale la lista de finalistas.</span></li>
+  <li><span><b>Pitch al jurado</b>Cada equipo presenta y el jurado revisa el proyecto de forma técnica. De ahí sale la lista de finalistas.</span></li>
   <li><span><b>Los finalistas presentan en público</b>Segunda ronda de pitches, esta vez ante todo el mundo. Ahí se define quién gana.</span></li>
 </ol>
 
-## La placa
+## La placa [#](#placa){: .hk-ancla aria-label="Link a esta sección"} {#placa}
 
 <div class="hk-pendiente">
   <p><strong>Próximamente.</strong></p>
 </div>
 
-## Cronograma <span class="hk-new">NEW!</span> {#cronograma}
+## Cronograma [#](#cronograma){: .hk-ancla aria-label="Link a esta sección"} {#cronograma}
 
 <div class="hk-crono-intro">
   <p class="hk-nota">Este cronograma es tentativo y está sujeto a cambios.</p>
@@ -92,13 +104,13 @@ Al final lo presentás en tres minutos. No hace falta que sepas de hardware, sol
 
 <div class="hk-franja"></div>
 
-## Premios y jurado
+## Premios y jurado [#](#premios){: .hk-ancla aria-label="Link a esta sección"} {#premios}
 
 <div class="hk-pendiente">
   <p><strong>Próximamente.</strong></p>
 </div>
 
-## Sponsors
+## Sponsors [#](#sponsors){: .hk-ancla aria-label="Link a esta sección"} {#sponsors}
 
 <ul class="hk-sponsors">
   <li><img src="/static/img/hack/lambda-dorado.png" alt="Lambda Class"></li>
@@ -107,7 +119,7 @@ Al final lo presentás en tres minutos. No hace falta que sepas de hardware, sol
 
 <p class="hk-nota">¿Querés sponsorear el evento? Escribinos a <a href="mailto:comcom@dc.uba.ar">comcom@dc.uba.ar</a>.</p>
 
-## Preguntas frecuentes
+## Preguntas frecuentes [#](#faq){: .hk-ancla aria-label="Link a esta sección"} {#faq}
 
 <div class="hk-faq">
   <details>
@@ -119,11 +131,11 @@ Al final lo presentás en tres minutos. No hace falta que sepas de hardware, sol
     <p>No. Hay una introducción al entorno de desarrollo desde cero. Ayuda saber programar en algún lenguaje, pero no hace falta haber tocado un microcontrolador nunca.</p>
   </details>
   <details>
-    <summary>¿Puedo anotarme sin equipo? <span class="hk-new">NEW!</span></summary>
+    <summary>¿Puedo anotarme sin equipo?</summary>
     <p>Sí, pero tienen prioridad los equipos completos. Si no tenés grupo, marcá la casilla <strong>"No tengo grupo"</strong> en el formulario. También podés dejar un mensaje en el <a href="https://timbear.gratis/muro/">muro que armamos para la hackatón</a> y conectar con otras personas que estén buscando equipo.</p>
   </details>
   <details>
-    <summary>¿Todos los integrantes del grupo tienen que estar el viernes a la mañana? <span class="hk-new">NEW!</span></summary>
+    <summary>¿Todos los integrantes del grupo tienen que estar el viernes a la mañana?</summary>
     <p>No, no es obligatorio. Entendemos que mucha gente los viernes va a estar trabajando en el horario de apertura del evento. Pero sí queremos que la mayor cantidad de gente pueda participar plenamente, y esto incluye poder venir los dos días.</p>
   </details>
   <details>
@@ -144,21 +156,21 @@ Al final lo presentás en tres minutos. No hace falta que sepas de hardware, sol
   </details>
   <details>
     <summary>¿Qué pasa si se llenan los cupos?</summary>
-    <p>Entran 20 equipos. Si se anota más gente, estamos definiendo el criterio de selección y lo publicamos acá antes de cerrar la inscripción.</p>
+    <p>Entran 20 equipos. Si se anotó más gente, estaremos revisando qué equipos quedan seleccionados.</p>
   </details>
 </div>
 
-## Quiénes somos
+## Quiénes somos [#](#quienes-somos){: .hk-ancla aria-label="Link a esta sección"} {#quienes-somos}
 
 Somos la **ComCom**, la comisión de estudiantes de Computación del Departamento de Computación de Exactas, UBA. 
 
 Si querés saber más: [las diapositivas de introducción](/static/descargas/intro_talleres.pdf) (PDF) o [la entrada en CubaWiki](https://www.cubawiki.com.ar/index.php/Ayuda:Soy_nuevo_en_el_DC#%C2%BFQu%C3%A9_es_la_ComCom?).
 
-## Contacto
+## Contacto [#](#contacto){: .hk-ancla aria-label="Link a esta sección"} {#contacto}
 
 Para consultas o para enterarte de los anuncios, escribinos a [comcom@dc.uba.ar](mailto:comcom@dc.uba.ar) o seguinos en [Instagram](https://www.instagram.com/comcom.exactas.uba).
 
-## Código de conducta
+## Código de conducta [#](#codigo-de-conducta){: .hk-ancla aria-label="Link a esta sección"} {#codigo-de-conducta}
 
 Tratá bien a las demás personas. No toleramos acoso, discriminación ni comentarios hostiles por género, orientación sexual, discapacidad, aspecto, origen, religión o cualquier otra característica personal. Tampoco chistes que vayan en esa dirección.
 
@@ -169,6 +181,5 @@ Si algo te incomoda o ves que le pasa a otra persona, avisale a alguien de la or
 <div class="hk-cta">
   <p class="hk-kicker">23 y 24 de octubre · FCEyN · UBA</p>
   <p>20 equipos, 4 personas cada uno, dos días y una placa.</p>
-  <a class="hk-btn" href="https://hackathon.timbear.gratis/forms/preregistro">Preinscribite</a>
-  <p class="hk-btn-nota">Es gratis. Cupos limitados.</p>
+  <p class="hk-cerrado">La preinscripción ya cerró.</p>
 </div>

@@ -68,6 +68,19 @@ body.hackaton-body {
   border-bottom: 1px solid var(--hk-line);
 }
 
+/* "#" al lado de cada título para copiar el link a la sección. */
+.hackaton h2 { scroll-margin-top: 16px; }
+.hackaton h2 a.hk-ancla { color: var(--hk-line); text-decoration: none; margin-left: 8px; opacity: 0; transition: opacity .15s; }
+.hackaton h2:hover a.hk-ancla, .hackaton h2 a.hk-ancla:focus { opacity: 1; }
+.hackaton h2 a.hk-ancla:hover { color: var(--hk-bright); }
+@media (hover: none) { .hackaton h2 a.hk-ancla { opacity: 1; } }
+
+/* Índice de secciones debajo de los números. */
+.hk-indice { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 24px 0 0; font-size: 13px; }
+.hk-indice a { color: var(--hk-muted) !important; text-decoration: none !important; }
+.hk-indice a::before { content: "▸ "; color: var(--hk-gold); }
+.hk-indice a:hover { color: var(--hk-bright) !important; }
+
 .hackaton h3 { font-size: 15px; margin: 26px 0 8px; color: var(--hk-gold); }
 
 .hk-kicker {
@@ -141,6 +154,18 @@ body.hackaton-body {
 .hk-btn:hover { background-color: var(--hk-bg); color: var(--hk-bright) !important; }
 
 .hk-btn-nota { font-size: 12px; color: var(--hk-muted); margin: 10px 0 0; }
+
+/* Reemplaza al botón de preinscripción una vez que cerró. */
+.hk-cerrado {
+  display: inline-block;
+  border: 1px dashed var(--hk-line);
+  color: var(--hk-muted);
+  padding: 14px 32px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 !important;
+}
 
 .hk-cta { text-align: center; margin: 48px 0 8px; padding: 32px; border: 1px solid var(--hk-line); }
 .hk-cta p { margin-bottom: 20px; }
