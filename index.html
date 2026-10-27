@@ -1,43 +1,53 @@
 ---
-layout: default
+layout: inicio
 title: Comisión de Estudiantes de Computación
-paginate_path: "/blog/page:num"
 ---
-<html>
-<h2 class="post-list-heading">Noticias</h2>
-<ul class="post-list">
-    {% for post in paginator.posts %}
-    <li>
-        <span class="post-meta">{{ post.date | date: "%-d %b, %Y"}}</span>
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    </li>
-  {% endfor %} 
-</ul>
+<section class="inicio-hero">
+  <h1>Bienvenides a la web de la<br><span class="acento">ComCom</span>,</h1>
+  <p>la Comisión de Estudiantes de Computación de la Facultad de Ciencias Exactas y Naturales de la UBA.</p>
+  <p class="inicio-botones">
+    <a class="boton boton-principal" href="https://t.me/comcomdcuba">Sumate a la ComCom</a>
+    <a class="boton" href="https://www.instagram.com/{{ site.instagram_username }}">@{{ site.instagram_username }}</a>
+  </p>
+</section>
 
-<!-- Pagination links -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
+<section class="inicio-seccion" aria-labelledby="cartelera">
+  <div class="inicio-titulo">
+    <div>
+      <p class="prompt">$ ls -t cartelera/</p>
+      <h2 id="cartelera">Cartelera</h2>
+    </div>
+    <a href="https://www.instagram.com/{{ site.instagram_username }}">Todo en Instagram →</a>
+  </div>
+  <ul class="cartelera">
+    {%- if site.data.instagram.posts.size > 0 -%}
+      {%- for post in site.data.instagram.posts -%}
+        {% include flyer.html link=post.link imagen=post.imagen titulo=post.titulo fecha=post.fecha %}
+      {%- endfor -%}
+    {%- else -%}
+      {%- comment -%} Sin sincronizar Instagram todavía: las páginas con flyer. {%- endcomment -%}
+      {%- assign eventos = site.pages | where_exp: "p", "p.flyer" | where_exp: "p", "p.fecha" | sort: "fecha" | reverse -%}
+      {%- for evento in eventos -%}
+        {% include flyer.html link=evento.url imagen=evento.flyer titulo=evento.title fecha=evento.fecha %}
+      {%- endfor -%}
+    {%- endif -%}
+  </ul>
+</section>
 
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ '/' | relative_url }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
-</html>
+<section class="inicio-seccion inicio-siempre" aria-labelledby="siempre">
+  <div>
+    <p class="prompt">$ cat siempre.txt</p>
+    <h2 id="siempre">Recursos</h2>
+    <p>El santo grial de cualquier estudiante del DC. Tené estos links a mano para compartirle a otros estudiantes:</p>
+  </div>
+  <div class="terminal">
+    <div class="terminal-barra"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>comcom@dc: ~</div>
+    <ul>
+      <li class="terminal-comando">$ cat siempre.txt</li>
+      {%- for link in site.data.links %}
+      <li><a href="{{ link.url }}">{{ link.nombre }}</a></li>
+      {%- endfor %}
+      <li class="terminal-comando">$ <span class="cursor"></span></li>
+    </ul>
+  </div>
+</section>

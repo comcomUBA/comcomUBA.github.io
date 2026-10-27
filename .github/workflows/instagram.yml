@@ -1,0 +1,69 @@
+# Trae los últimos posts de Instagram a _data/instagram.yml para la cartelera
+# de la home. Configuración (secrets IG_TOKEN y SECRETS_PAT): ver el docstring
+# de scripts/sync_instagram.py.
+name: Sincronizar Instagram
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # todos los días, 6 AM de Argentina
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: instagram
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    # Los secrets no se pueden usar en un if; pasándolo por env, cada paso
+    # se saltea mientras IG_TOKEN no esté cargado (en vez de fallar a diario).
+    env:
+      IG_TOKEN: ${{ secrets.IG_TOKEN }}
+    steps:
+      - if: env.IG_TOKEN != ''
+        uses: actions/checkout@v4
+
+      - if: env.IG_TOKEN != ''
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - if: env.IG_TOKEN != ''
+        run: pip install pyyaml
+
+      - name: Traer posts
+        if: env.IG_TOKEN != ''
+        run: scripts/sync_instagram.py --token-out "$RUNNER_TEMP/ig_token"
+
+      - name: Commit y rebuild de Pages
+        if: env.IG_TOKEN != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add _data/instagram.yml static/img/instagram
+          if git diff --cached --quiet; then
+            echo "Sin posts nuevos."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sincronizo cartelera con Instagram"
+          git push
+          # Un push hecho con GITHUB_TOKEN puede no disparar el build de Pages.
+          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds"
+
+      # Renovar el token cada día hace que los 60 días de validez arranquen
+      # de nuevo, así nunca vence mientras el workflow siga corriendo.
+      - name: Guardar token renovado
+        if: env.IG_TOKEN != ''
+        env:
+          GH_TOKEN: ${{ secrets.SECRETS_PAT }}
+        run: |
+          if [ -s "$RUNNER_TEMP/ig_token" ]; then
+            gh secret set IG_TOKEN --repo "$GITHUB_REPOSITORY" < "$RUNNER_TEMP/ig_token"
+          fi
+          rm -f "$RUNNER_TEMP/ig_token"

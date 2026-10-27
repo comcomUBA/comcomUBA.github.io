@@ -3,6 +3,7 @@ layout: edicionEspecial
 title: Talleres — Edición Especial
 permalink: /talleres/paro/
 flyer: /static/img/talleres/paro-flyer2.png
+fecha: 2026-06-11
 ---
 
 Desde la ComCom queremos invitarles a participar en una serie de talleres organizados y dictados por alumnos de la carrera.
