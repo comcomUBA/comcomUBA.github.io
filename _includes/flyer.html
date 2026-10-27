@@ -1,0 +1,12 @@
+{%- comment -%}
+  Un flyer de la cartelera de la home. Parámetros: link, imagen, titulo, fecha.
+{%- endcomment -%}
+{%- assign meses = "ene,feb,mar,abr,may,jun,jul,ago,sep,oct,nov,dic" | split: "," -%}
+{%- assign mes = include.fecha | date: "%-m" | minus: 1 -%}
+<li class="flyer">
+  <a href="{{ include.link }}">
+    <img src="{{ include.imagen | relative_url }}" alt="" loading="lazy">
+    <span class="flyer-fecha">{{ meses[mes] }} {{ include.fecha | date: "%Y" }}</span>
+    <span class="flyer-titulo">{{ include.titulo | escape }}</span>
+  </a>
+</li>

@@ -10,3 +10,6 @@ vendor/
 .vscode
 .geany
 
+CLAUDE.md
+.claude/
+__pycache__/

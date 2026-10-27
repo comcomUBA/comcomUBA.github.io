@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  {% assign customStyle = "inicio.css" %}
+  {% assign customHead = "inicioHead.html" %}
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <main class="page-content">
+      <div class="wrapper inicio">
+        {{ content }}
+      </div>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

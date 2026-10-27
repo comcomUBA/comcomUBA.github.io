@@ -3,6 +3,7 @@ layout: edicionEspecial
 title: Talleres de Oktubre
 permalink: /talleres/oktubre/
 flyer: /static/img/talleres/oktubre-flyer.jpg
+fecha: 2026-10-16
 ---
 
 Desde la ComCom queremos invitarles a una nueva tanda de talleres organizados y dictados por estudiantes de la carrera: los **Talleres de Oktubre**.
