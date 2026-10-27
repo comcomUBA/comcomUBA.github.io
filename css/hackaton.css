@@ -344,3 +344,32 @@ body.hackaton-body {
   .hk-cta { padding: 24px 18px; }
   .hackaton h2 { font-size: 18px; margin-top: 44px; }
 }
+
+/* --- Ganadores y jurado --- */
+.hk-ganadores { list-style: none; margin: 0 0 24px; padding: 0; }
+.hk-ganadores li { padding: 18px 0; border-bottom: 1px solid var(--hk-line); }
+.hk-ganadores li:first-child { border-top: 1px solid var(--hk-line); }
+.hk-ganadores .hk-puesto { margin: 0; font-family: var(--hk-display); font-size: 12px; color: var(--hk-gold); text-transform: uppercase; letter-spacing: 1.5px; }
+.hackaton .hk-ganadores h3 { margin: 2px 0 8px; font-size: 18px; border-bottom: none; }
+.hackaton .hk-ganadores h3 span { font-family: var(--hk-mono); font-size: 14px; font-weight: 400; color: var(--hk-muted); }
+.hackaton .hk-ganadores p { margin-bottom: 8px; }
+.hk-ganadores .hk-integrantes { font-size: 13px; color: var(--hk-muted); }
+.hk-ganadores .hk-premio { font-size: 14px; margin-bottom: 0; }
+.hk-ganadores .hk-premio b { color: var(--hk-bright); }
+
+.hk-jurado { list-style: none; margin: 0 0 18px; padding: 0; font-size: 14px; }
+.hk-jurado li { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 16px; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--hk-line); }
+.hk-jurado b { display: block; color: var(--hk-bright); }
+.hk-jurado img { width: 72px; height: 72px; border-radius: 50% !important; border: 1px solid var(--hk-line); object-fit: cover; display: block; }
+
+.hk-minions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px 16px; list-style: none; margin: 0 0 18px; padding: 0; font-size: 14px; color: var(--hk-bright); }
+
+@media screen and (max-width: 720px) {
+  .hk-minions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+.hk-criterios .hk-hora { flex-basis: 64px; color: var(--hk-gold); }
+.hk-criterios b { color: var(--hk-bright); }
+
+.hk-placa-zoom { display: block; cursor: zoom-in; }
+.hk-placa-zoom:hover img { border-color: var(--hk-gold); }
