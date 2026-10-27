@@ -78,7 +78,11 @@ def titulo(caption):
     first = next((l.strip() for l in caption.splitlines() if l.strip()), "")
     if len(first) <= TITLE_MAX:
         return first
-    return first[: TITLE_MAX - 1].rstrip() + "…"
+    cut = first[: TITLE_MAX - 1]
+    # Cut at the last space so a word isn't split in half.
+    if " " in cut:
+        cut = cut.rsplit(" ", 1)[0]
+    return cut.rstrip(" ,.;:-") + "…"
 
 
 def site_link(caption):
