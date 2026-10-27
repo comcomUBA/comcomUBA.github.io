@@ -54,8 +54,18 @@ TITLE_MAX = 80
 
 def get_json(url, params):
     query = urllib.parse.urlencode(params)
-    with urllib.request.urlopen(f"{url}?{query}", timeout=30) as resp:
-        return json.load(resp)
+    try:
+        with urllib.request.urlopen(f"{url}?{query}", timeout=30) as resp:
+            return json.load(resp)
+    except urllib.error.HTTPError as err:
+        # Meta explains the failure in the body (e.g. an expired or malformed
+        # token). Print only that: the URL carries the token.
+        try:
+            detail = json.load(err).get("error", {})
+        except ValueError:
+            detail = {}
+        err.msg = f"{err.msg}: {detail.get('message', '')} (code {detail.get('code')})"
+        raise
 
 
 def fetch_media(token, limit):
