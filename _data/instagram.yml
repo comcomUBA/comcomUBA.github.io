@@ -1,8 +1,25 @@
 posts:
+- id: '17962668899998114'
+  fecha: '2026-10-27'
+  titulo: Les compartimos los ganadores de la Hackaton!!!
+  link: https://www.instagram.com/p/DfA2MpYG2q9/
+  permalink: https://www.instagram.com/p/DfA2MpYG2q9/
+  imagen: /static/img/instagram/17962668899998114.jpg
+- id: '18116940637834799'
+  fecha: '2026-10-26'
+  titulo: 'HACKATON COMCOM: GHOST IN THE HAL'
+  link: https://www.instagram.com/p/De-FdMmG9wJ/
+  permalink: https://www.instagram.com/p/De-FdMmG9wJ/
+  imagen: /static/img/instagram/18116940637834799.jpg
+- id: '18132796756746203'
+  fecha: '2026-10-22'
+  titulo: Los docentes y alumnos de Computación le decimos feliz cumpleaños al no…
+  link: https://www.instagram.com/p/DeyHueljjIB/
+  permalink: https://www.instagram.com/p/DeyHueljjIB/
+  imagen: /static/img/instagram/18132796756746203.jpg
 - id: '18064177136789032'
   fecha: '2026-10-14'
-  titulo: Regalele un yogur a su ayudante de segunda favorito... y venga a la marcha
-    univ…
+  titulo: Regalele un yogur a su ayudante de segunda favorito... y venga a la marcha…
   link: https://www.instagram.com/reel/Dee7lv1uxbD/
   permalink: https://www.instagram.com/reel/Dee7lv1uxbD/
   imagen: /static/img/instagram/18064177136789032.jpg
@@ -34,8 +51,7 @@ posts:
   imagen: /static/img/instagram/18346692361265851.jpg
 - id: '18106881296462251'
   fecha: '2026-10-06'
-  titulo: Sabías que todo en la vida se puede explicar a través de Pi? Nos vemos el
-    jueve…
+  titulo: Sabías que todo en la vida se puede explicar a través de Pi? Nos vemos el…
   link: https://www.instagram.com/reel/DeKCnEnOHWp/
   permalink: https://www.instagram.com/reel/DeKCnEnOHWp/
   imagen: /static/img/instagram/18106881296462251.jpg
@@ -48,7 +64,7 @@ posts:
 - id: '17941648893298821'
   fecha: '2026-08-25'
   titulo: Salió una nueva tanda de talleres de la ComCom (Comisión de Estudiantes
-    de Comp…
+    de…
   link: /talleres
   permalink: https://www.instagram.com/p/DceDNsaORjF/
   imagen: /static/img/instagram/17941648893298821.jpg
@@ -58,22 +74,3 @@ posts:
   link: https://www.instagram.com/p/Dbf_MWODpUi/
   permalink: https://www.instagram.com/p/Dbf_MWODpUi/
   imagen: /static/img/instagram/17899722171340804.jpg
-- id: '18333677047264505'
-  fecha: '2026-07-27'
-  titulo: Estuvimos la semana pasada en la Debconf en Santa Fe!
-  link: https://www.instagram.com/p/DbT2SDMG1JB/
-  permalink: https://www.instagram.com/p/DbT2SDMG1JB/
-  imagen: /static/img/instagram/18333677047264505.jpg
-- id: '18092698613346937'
-  fecha: '2026-07-01'
-  titulo: Se viene la PRIMERA Cyber Noche De Juegos organizada por la ComCom! Veni
-    a juga…
-  link: https://www.instagram.com/p/DaQXOFbOwOt/
-  permalink: https://www.instagram.com/p/DaQXOFbOwOt/
-  imagen: /static/img/instagram/18092698613346937.jpg
-- id: '17933265288284961'
-  fecha: '2026-06-26'
-  titulo: 🫂MEETCOM 🫂
-  link: https://www.instagram.com/p/DaDQr67OYtQ/
-  permalink: https://www.instagram.com/p/DaDQr67OYtQ/
-  imagen: /static/img/instagram/17933265288284961.jpg
