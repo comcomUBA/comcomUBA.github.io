@@ -164,7 +164,7 @@ Al final se lo presentás al jurado. No hace falta que sepas de hardware, solo q
     <p class="hk-premio"><b>Premio:</b> premio misterioso.</p>
   </li>
   <li>
-    <p class="hk-puesto">Mención Internet of Kinks</p>
+    <p class="hk-puesto">Mención IoK</p>
     <h3>Kentukis <span>· Divide and Fail</span></h3>
     <p>Inspirado en la novela de Samanta Schweblin. Una placa es el "amo" y la otra el "kentuki", una mascota-robot que recorre las habitaciones de una casa virtual. El kentuki pierde salud con el tiempo y el amo tiene que encontrarlo y acariciarlo para que no muera.</p>
     <p class="hk-integrantes">Dolfina Carballeira González, Matías Naddeo, Francisco Anllo, Aitor Castro Eguren</p>
