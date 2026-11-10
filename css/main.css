@@ -29,7 +29,7 @@ html {
     --main-text-color: rgb(229, 229, 234);
     --card-background-color: rgb(52, 53, 58);
     --card-border-color: rgb(90, 92, 100);
-    --background-color3: #b4b4b4;
+    --background-color3: rgb(28, 28, 30);
     --logo: #b4b4b4;
     --site-logo-url: url("/static/img/mocmoc/logo-horizontal.min.svg");
     --taller-logo-url: url("/static/img/mocmoc/logo.min.svg");
